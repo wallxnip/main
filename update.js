@@ -1,0 +1,1 @@
+div.innerHTML += '<a href=#" class="btn"> ATUALIZAR </a> ';
