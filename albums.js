@@ -23,5 +23,10 @@ const charts1 = [
 const releases1 = [
   {title:'Ruby', artist:'Naya', action:'nlx("release1")', img:'https://i.postimg.cc/SN9dxjqQ/Naya-une-girl-on-the-moon-prometteuse-interview-Ruby-1.jpg'},
   {title:'One More Night', artist:'Lost Frenquencies', img:'https://i.postimg.cc/sg6MF98M/PAST-EVENTS-Theory-Elevengg.jpg'},
+  {title:'Kiss Me', artist:'Dermot Kennedy', action:() => nlx("release3"), img:'https://i.postimg.cc/V6MvCyNt/Dermot-Kennedy-Kiss-Me-Acoustic-Lyrics-Genius-Lyrics.jpg'},
+
+{title:'Ruby', artist:'Naya', action:'nlx("release1")', img:'https://i.postimg.cc/SN9dxjqQ/Naya-une-girl-on-the-moon-prometteuse-interview-Ruby-1.jpg'},
+  {title:'One More Night', artist:'Lost Frenquencies', img:'https://i.postimg.cc/sg6MF98M/PAST-EVENTS-Theory-Elevengg.jpg'},
   {title:'Kiss Me', artist:'Dermot Kennedy', action:() => nlx("release3"), img:'https://i.postimg.cc/V6MvCyNt/Dermot-Kennedy-Kiss-Me-Acoustic-Lyrics-Genius-Lyrics.jpg'}
+
 ];
