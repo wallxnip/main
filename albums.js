@@ -8,7 +8,7 @@ document.getElementById("pravoce").innerText = "Para você";
 const editors1 = [
   {title:'Summer (MIX)', action:'nlx("onclick1")', subtitle:"Wallker", img:'https://i.postimg.cc/J4rFvrmT/8.jpg'},
 
-{title: 'Drilland', action: "playAlbum(this,'drilland')", subtitle: "Wallker", img: 'https://i.postimg.cc/vZpDdMGV/2.jpg'},
+{title: 'Drilland', action:'nlx("drilland ")', subtitle: "Wallker", img: 'https://i.postimg.cc/vZpDdMGV/2.jpg'},
 
   {title:"EDM", subtitle:'Wallker', img:'https://i.postimg.cc/HxtL5yXw/1.png'}
 ];
