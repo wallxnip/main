@@ -78,4 +78,4 @@ function createImageBlock(containerSelector, imageUrls, interval = 3000) {
 'https://i.postimg.cc/Prfftv1Y/Beauty-Plus-20250913154854650-save.jpg',
 
  'https://i.postimg.cc/yxMTTChz/Beauty-Plus-20250905014933282-save.jpg',
-  ], 7500);
+  ], 16000);
