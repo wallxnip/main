@@ -14,11 +14,24 @@ const editors1 = [
 ];
 
 const charts1 = [
-  {title:'Over Hists', charts:"Wallker", img:'https://i.postimg.cc/2Sq3J3NY/10.jpg'},
-
-  {title:'Hip-Hop', action: () => nlx("hiphop"), charts:"Wallker", img:'https://i.postimg.cc/2y8SxS7P/6.jpg'},
-
-  {title:"The Rock", charts:'Wallker', img:'https://i.postimg.cc/2yc89NH3/7.jpg'}
+  { 
+    title: 'Over Hists', 
+    charts: "Wallker", 
+    img: 'https://i.postimg.cc/2Sq3J3NY/10.jpg', 
+    action: () => nlx("overhists") // função associada
+  },
+  { 
+    title: 'Hip-Hop', 
+    charts: "Wallker", 
+    img: 'https://i.postimg.cc/2y8SxS7P/6.jpg', 
+    action: () => nlx("hiphop") // já existia, mantida
+  },
+  { 
+    title: "The Rock", 
+    charts: 'Wallker', 
+    img: 'https://i.postimg.cc/2yc89NH3/7.jpg', 
+    action: () => nlx("therock") // função associada
+  }
 ];
 
 
