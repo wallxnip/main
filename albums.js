@@ -21,6 +21,7 @@ const editors1 = [
     { 
         title: "EDM", 
         subtitle: 'Wallker', 
+        action: () => nlx("alone"), 
         img: 'https://i.postimg.cc/HxtL5yXw/1.png' 
     }
 ];
