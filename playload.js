@@ -1,5 +1,5 @@
 const playlists = {
-onclick1: playlist1,
+onclick1: playlist001,
 
 
 
