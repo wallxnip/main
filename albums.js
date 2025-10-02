@@ -50,7 +50,7 @@ const releases1 = [
     { 
         title: 'Ruby', 
         artist: 'Naya', 
-        action: () => nlx("hiphop"), 
+        action: () => nlx("#"), 
         img: 'https://i.postimg.cc/SN9dxjqQ/Naya-une-girl-on-the-moon-prometteuse-interview-Ruby-1.jpg' 
     },
     { 
