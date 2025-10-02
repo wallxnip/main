@@ -42,7 +42,7 @@ const charts1 = [
     { 
         title: "Temporal", 
         charts: 'Wallker', 
-        img: 'https://i.postimg.cc/dt30kD1C/9.jpg', 
+        img: 'https://i.postimg.cc/TYFtZ4Fb/Beauty-Plus-20251002134530125-save.jpg', 
         action: () => nlx("temporal") 
     }
 ];
