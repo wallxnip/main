@@ -52,7 +52,7 @@ const releases1 = [
         title: 'DJ EN', 
         artist: 'Nostalgia', 
         action: () => nlx("djen"), 
-        img: 'https://i.postimg.cc/P5hXfy7j/Beauty-Plus-20251002082827535-saveg.png' 
+        img: 'https://i.postimg.cc/tJsbJ6By/1000468910.jpg' 
     },
     { 
         title: 'One More Night', 
