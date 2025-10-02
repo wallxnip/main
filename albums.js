@@ -40,10 +40,10 @@ const charts1 = [
         action: () => nlx("hiphop") 
     },
     { 
-        title: "The Rock", 
+        title: "Temporal", 
         charts: 'Wallker', 
-        img: 'https://i.postimg.cc/2yc89NH3/7.jpg', 
-        action: () => nlx("therock") 
+        img: 'https://i.postimg.cc/dt30kD1C/9.jpg', 
+        action: () => nlx("temporal") 
     }
 ];
 
