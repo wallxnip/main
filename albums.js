@@ -15,12 +15,15 @@ const editors1 = [
 
 const charts1 = [
   {title:'Over Hists', charts:"Wallker", img:'https://i.postimg.cc/2Sq3J3NY/10.jpg'},
+
   {title:'Hip-Hop', action: () => nlx("hiphop"), charts:"Wallker", img:'https://i.postimg.cc/2y8SxS7P/6.jpg'},
+
   {title:"The Rock", charts:'Wallker', img:'https://i.postimg.cc/2yc89NH3/7.jpg'}
 ];
 
+
 const releases1 = [
-  {title:'Ruby', artist:'Naya', action:'nlx("release1")', img:'https://i.postimg.cc/SN9dxjqQ/Naya-une-girl-on-the-moon-prometteuse-interview-Ruby-1.jpg'},
+  {title:'Ruby', artist:'Naya', action:'nlx("hiphop")', img:'https://i.postimg.cc/SN9dxjqQ/Naya-une-girl-on-the-moon-prometteuse-interview-Ruby-1.jpg'},
   {title:'One More Night', artist:'Lost Frenquencies', img:'https://i.postimg.cc/sg6MF98M/PAST-EVENTS-Theory-Elevengg.jpg'},
   {title:'Kiss Me', artist:'Dermot Kennedy', action:() => nlx("release3"), img:'https://i.postimg.cc/V6MvCyNt/Dermot-Kennedy-Kiss-Me-Acoustic-Lyrics-Genius-Lyrics.jpg'},
 
