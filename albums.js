@@ -27,10 +27,10 @@ const editors1 = [
 
 const charts1 = [
     { 
-        title: 'Over Hists', 
+        title: 'Funk (MIX)', 
         charts: "Wallker", 
-        img: 'https://i.postimg.cc/2Sq3J3NY/10.jpg', 
-        action: () => nlx("overhists") 
+        img: 'https://i.postimg.cc/Y2fVdGcG/4.png', 
+        action: () => nlx("funk") 
     },
     { 
         title: 'Hip-Hop', 
