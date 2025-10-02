@@ -48,10 +48,10 @@ const charts1 = [
 
 const releases1 = [
     { 
-        title: 'Ruby', 
-        artist: 'Naya', 
-        action: () => nlx("#"), 
-        img: 'https://i.postimg.cc/SN9dxjqQ/Naya-une-girl-on-the-moon-prometteuse-interview-Ruby-1.jpg' 
+        title: 'DJ EN', 
+        artist: 'Nostalgia', 
+        action: () => nlx("djen"), 
+        img: 'https://i.postimg.cc/P5hXfy7j/Beauty-Plus-20251002082827535-saveg.png' 
     },
     { 
         title: 'One More Night', 
