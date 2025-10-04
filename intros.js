@@ -73,7 +73,7 @@ function createImageBlock(containerSelector, imageUrls, interval = 3000) {
 'https://i.postimg.cc/4N0FSVxP/Melody-faz-anivers-rio-e-planeja-fest-o-de-15-anos-Vai-ser-baba.png',
 
 
-  ], 7000);
+  ], 16000);
 
 
 
