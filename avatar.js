@@ -1,5 +1,5 @@
 addAvatarWithFade(
 '.avatar',
-'app/tymusic/ty.png',
+'app/tymusic/user_12.png',
 'updateIt.html'
 );
