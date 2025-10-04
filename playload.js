@@ -8,3 +8,9 @@ const playlists = {
   alone: playlist505,
   temporal: playlist506,
 };
+
+const playlistOrder = [
+  'funk',   // Funk (MIX)
+  'hiphop', // Hip-Hop
+  'alone',  // Alone(EDM)
+];
