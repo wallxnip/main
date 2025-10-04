@@ -12,5 +12,10 @@ const playlists = {
 const playlistOrder = [
   'funk',   // Funk (MIX)
   'hiphop', // Hip-Hop
+  'summer',  // Summer (MIX)
+  'temporal',  // Temporal
+  'drilland',  // Drilland
   'alone',  // Alone(EDM)
+  'djen',  // DJ (EN)
+
 ];
