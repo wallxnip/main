@@ -61,16 +61,16 @@ const releases1 = [
         img: 'https://i.postimg.cc/pXg3vxVc/Pisadinha-do-Vaqueiro.jpg' 
     },
     { 
-        title: 'Kiss Me', 
-        artist: 'Dermot Kennedy', 
+        title: 'Axé das Antigas', 
+        artist: 'Kiko Chicabana', 
         action: () => nlx("release3"), 
-        img: 'https://i.postimg.cc/V6MvCyNt/Dermot-Kennedy-Kiss-Me-Acoustic-Lyrics-Genius-Lyrics.jpg' 
+        img: 'https://i.postimg.cc/d0f98rQq/Chicabana.jpg' 
     },
     { 
-        title: 'Playlist', 
-        artist: 'Tungevaag', 
+        title: 'Sky Love do Forró', 
+        artist: 'Sky Love', 
         action: () => nlx("release1"), 
-        img: 'https://i.postimg.cc/NfxyDwk7/Tungevaag-Dharma-Studio.jpg' 
+        img: 'https://i.postimg.cc/wBrkhLx9/Sou-Love.jpg' 
     },
     { 
         title: 'Playlist', 
