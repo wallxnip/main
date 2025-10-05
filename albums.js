@@ -55,9 +55,9 @@ const releases1 = [
         img: 'https://i.postimg.cc/tJsbJ6By/1000468910.jpg' 
     },
     { 
-        title: 'One More Night', 
-        artist: 'Lost Frenquencies', 
-        img: 'https://i.postimg.cc/sg6MF98M/PAST-EVENTS-Theory-Elevengg.jpg' 
+        title: 'Vaquejada', 
+        artist: 'So as Melhores', 
+        img: 'https://i.postimg.cc/0jFhX1HM/Beauty-Plus-20251005005346818-save.png' 
     },
     { 
         title: 'Kiss Me', 
