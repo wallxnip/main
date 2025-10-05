@@ -55,9 +55,10 @@ const releases1 = [
         img: 'https://i.postimg.cc/tJsbJ6By/1000468910.jpg' 
     },
     { 
-        title: 'Vaquejada', 
-        artist: 'So as Melhores', 
-        img: 'https://i.postimg.cc/0jFhX1HM/Beauty-Plus-20251005005346818-save.png' 
+        title: 'Pisadinha do Vaqueiro', 
+        artist: 'Francildo Silva,
+        action: () => nlx("francildosilva"), 
+        img: 'https://i.postimg.cc/pXg3vxVc/Pisadinha-do-Vaqueiro.jpg' 
     },
     { 
         title: 'Kiss Me', 
