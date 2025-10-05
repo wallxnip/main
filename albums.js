@@ -49,12 +49,6 @@ const charts1 = [
 
 const releases1 = [
     { 
-        title: 'DJ EN', 
-        artist: 'Nostalgia', 
-        action: () => nlx("djen"), 
-        img: 'https://i.postimg.cc/tJsbJ6By/1000468910.jpg' 
-    },
-    { 
         title: 'Pisadinha do Vaqueiro', 
         artist: 'Francildo Silva',
         action: () => nlx("francildosilva"), 
