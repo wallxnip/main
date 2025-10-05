@@ -78,12 +78,12 @@ const releases1 = [
         action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/xT8JDCKG/Rob-rio.jpg' 
     },
-    { 
-        title: 'Playlist', 
-        artist: 'Flo Rida', 
-        action: () => nlx("release3"), 
-        img: 'https://i.postimg.cc/ZnpN4BN1/Good-Feeling-by-Flo-Rida-Rihanna-lyrics-Piano-sheet-music-Kar.jpg' 
-    }
+
+
+
+
+
+
 ];
 
 
