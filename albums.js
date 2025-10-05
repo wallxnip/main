@@ -56,7 +56,7 @@ const releases1 = [
     },
     { 
         title: 'Pisadinha do Vaqueiro', 
-        artist: 'Francildo Silva,
+        artist: 'Francildo Silva',
         action: () => nlx("francildosilva"), 
         img: 'https://i.postimg.cc/pXg3vxVc/Pisadinha-do-Vaqueiro.jpg' 
     },
