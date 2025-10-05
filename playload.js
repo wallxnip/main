@@ -4,7 +4,6 @@ const playlists = {
   summer: playlist501,
   hiphop: playlist502,
   
-
   funk: playlist504,
   alone: playlist505,
   temporal: playlist506,
