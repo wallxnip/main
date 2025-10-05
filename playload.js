@@ -8,6 +8,8 @@ const playlists = {
   alone: playlist505,
   temporal: playlist506,
   francildosilva: playlist507,
+  chicabana: playlist508,
+  skylove: playlist509,
 };
 
 const playlistOrder = [
