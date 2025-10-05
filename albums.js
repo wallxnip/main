@@ -75,6 +75,7 @@ const releases1 = [
     { 
         title: 'Apaixonado Sempre', 
         artist: 'Robério e seus Teclados', 
+        action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/xT8JDCKG/Rob-rio.jpg' 
     },
     { 
