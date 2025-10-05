@@ -73,9 +73,9 @@ const releases1 = [
         img: 'https://i.postimg.cc/wBrkhLx9/Sou-Love.jpg' 
     },
     { 
-        title: 'Playlist', 
-        artist: 'Alan Walker', 
-        img: 'https://i.postimg.cc/mkfcXLnV/1000393522.jpg' 
+        title: 'Apaixonado Sempre', 
+        artist: 'Robério e seus Teclados', 
+        img: 'https://i.postimg.cc/xT8JDCKG/Rob-rio.jpg' 
     },
     { 
         title: 'Playlist', 
