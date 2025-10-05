@@ -63,13 +63,13 @@ const releases1 = [
     { 
         title: 'Axé das Antigas', 
         artist: 'Kiko Chicabana', 
-        action: () => nlx("release3"), 
+        action: () => nlx("chicabana"), 
         img: 'https://i.postimg.cc/d0f98rQq/Chicabana.jpg' 
     },
     { 
         title: 'Sky Love do Forró', 
         artist: 'Sky Love', 
-        action: () => nlx("release1"), 
+        action: () => nlx("skylove"), 
         img: 'https://i.postimg.cc/wBrkhLx9/Sou-Love.jpg' 
     },
     { 
