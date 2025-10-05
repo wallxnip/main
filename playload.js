@@ -7,6 +7,7 @@ const playlists = {
   funk: playlist504,
   alone: playlist505,
   temporal: playlist506,
+  francildosilva: playlist507,
 };
 
 const playlistOrder = [
@@ -17,5 +18,5 @@ const playlistOrder = [
   'drilland',  // Drilland
   'alone',  // Alone(EDM)
   'djen',  // DJ (EN)
-
+  'francildosilva',  // Pisadinha do Vaqueiro
 ];
