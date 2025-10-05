@@ -10,6 +10,7 @@ const playlists = {
   francildosilva: playlist507,
   chicabana: playlist508,
   skylove: playlist509,
+  roberio: playlist510,
 };
 
 const playlistOrder = [
@@ -21,4 +22,7 @@ const playlistOrder = [
   'alone',  // Alone(EDM)
   'djen',  // DJ (EN)
   'francildosilva',  // Pisadinha do Vaqueiro
+  'chicabana',  // Chicabana
+  'skylove',  // Sky Love do forró
+  'roberio',  // Robério e seus Teclados 
 ];
