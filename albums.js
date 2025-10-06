@@ -105,8 +105,8 @@ function makeCard(data) {
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
     <div style="position:absolute;left:12px;bottom:12px">
-      <div class="title">${data.title}</div>
-      <div class="meta">${data.subtitle||data.artist||data.charts||''}</div>
+      <div class="fft title">${data.title}</div>
+      <div class="fft meta">${data.subtitle||data.artist||data.charts||''}</div>
     </div>
   `;
   div.appendChild(a);
@@ -148,8 +148,8 @@ function populate1() {
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
       <div style="position:absolute;left:12px;bottom:12px">
-        <div class="title">${it.title}</div>
-        <div class="meta">${it.artist}</div>
+        <div class="fft title">${it.title}</div>
+        <div class="fft meta">${it.artist}</div>
       </div>
     `;
     div.appendChild(a);
