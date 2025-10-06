@@ -1,5 +1,7 @@
 const playlists = {
-  onclick1: playlist1,
+  onclick1: playlist001,
+  onclick2: playlist002,
+
   drilland: playlist500,
   summer: playlist501,
   hiphop: playlist502,
@@ -21,6 +23,8 @@ const playlistOrder = [
   'drilland',  // Drilland
   'alone',  // Alone(EDM)
 
+  'onclick1',  // Lançamentos
+  'onclick2',  //  Trilha Sonora
   'francildosilva',  // Pisadinha do Vaqueiro
   'chicabana',  // Chicabana
   'skylove',  // Sky Love do forró
