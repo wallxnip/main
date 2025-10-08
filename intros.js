@@ -2,48 +2,54 @@ function createImageBlock(containerSelector, imageUrls, interval = 3000) {
   const container = document.querySelector(containerSelector);
   if (!container) return;
 
-  container.classList.add('image-block');
-  const images = [];
+  // Estilos do container
+  container.style.position = 'relative';
+  container.style.width = '100%';
+  container.style.height = '100%';
+  container.style.overflow = 'hidden';
 
-  imageUrls.forEach(url => {
-    const img = document.createElement('img');
+  const imgA = document.createElement('img');
+  const imgB = document.createElement('img');
 
-    // Placeholder transparente
-    img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
-    img.dataset.src = url;
-
+  [imgA, imgB].forEach(img => {
+    img.style.position = 'absolute';
+    img.style.top = '0';
+    img.style.left = '0';
+    img.style.width = '100%';
+    img.style.height = '100%';
+    img.style.objectFit = 'cover';
+    img.style.opacity = '0';
+    img.style.transition = 'opacity 0.8s ease-in-out';
     container.appendChild(img);
-    images.push(img);
-
-    // Pré-carrega a imagem real
-    const realImg = new Image();
-    realImg.src = url;
-    realImg.onload = () => {
-      img.src = url;
-      // Se for a primeira imagem, já mostra
-      if (images.indexOf(img) === 0) img.classList.add('loaded');
-    };
   });
 
   let currentIndex = 0;
+  let showingA = true;
+
+  function showImage(index) {
+    const nextUrl = imageUrls[index];
+    const imgToShow = showingA ? imgB : imgA;
+    const imgToHide = showingA ? imgA : imgB;
+
+    const tempImg = new Image();
+    tempImg.src = nextUrl;
+    tempImg.onload = () => {
+      imgToShow.src = nextUrl;
+
+      imgToShow.style.opacity = '1';
+      imgToHide.style.opacity = '0';
+
+      showingA = !showingA;
+    };
+  }
+
+  // Inicializa primeira imagem
+  imgA.src = imageUrls[0];
+  imgA.style.opacity = '1';
 
   setInterval(() => {
-    // Remove a classe da imagem atual
-    images[currentIndex].classList.remove('loaded');
-
-    // Passa para a próxima imagem
-    currentIndex = (currentIndex + 1) % images.length;
-
-    // Garante que a próxima imagem já está carregada
-    const nextImg = images[currentIndex];
-    if (nextImg.complete) {
-      nextImg.classList.add('loaded');
-    } else {
-      // Caso ainda não tenha carregado, espera o onload
-      nextImg.onload = () => {
-        nextImg.classList.add('loaded');
-      };
-    }
+    currentIndex = (currentIndex + 1) % imageUrls.length;
+    showImage(currentIndex);
   }, interval);
 }
 
