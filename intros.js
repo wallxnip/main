@@ -40,15 +40,16 @@ function createImageBlock(containerSelector, imageUrls, interval = 3000) {
 // #Playlist
 // -----------------------------------------
 createImageBlock('.playlist', [
-  'https://i.postimg.cc/GpkBNhY8/Melody.webp',
-  'https://i.postimg.cc/bvQGMNbG/Alok.webp',
-  'https://i.postimg.cc/cH47ZndT/DJ-marshmallow.webp',
-  'https://i.postimg.cc/258Rp0LQ/Lavigne.webp',
-  'https://i.postimg.cc/MKWYmNCj/Hungria-hip-Hop.webp',
-  'https://i.postimg.cc/LX0t8bbv/Ana-Castela.webp',
-  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp',
-  'https://i.postimg.cc/dQgCNXZ3/Justin-Bieber.webp',
-  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp',
+  'app/splash/1.jpg',
+  'app/splash/2.jpg',
+  'app/splash/3.jpg',
+  'app/splash/4.jpg',
+  'app/splash/5.jpg',
+  'app/splash/6.jpg',
+  'app/splash/7.jpg',
+  'app/splash/8.jpg',
+  'app/splash/9.jpg',
+  'app/splash/10.jpg',
 ], 16000);
 
 // -----------------------------------------
