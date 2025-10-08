@@ -46,9 +46,9 @@ createImageBlock('.playlist', [
   'https://i.postimg.cc/258Rp0LQ/Lavigne.webp',
   'https://i.postimg.cc/MKWYmNCj/Hungria-hip-Hop.webp',
   'https://i.postimg.cc/LX0t8bbv/Ana-Castela.webp',
-  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp,
+  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp',
   'https://i.postimg.cc/dQgCNXZ3/Justin-Bieber.webp',
-  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp'
+  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp',
 ], 16000);
 
 // -----------------------------------------
@@ -61,9 +61,9 @@ createImageBlock('.player', [
   'https://i.postimg.cc/258Rp0LQ/Lavigne.webp',
   'https://i.postimg.cc/MKWYmNCj/Hungria-hip-Hop.webp',
   'https://i.postimg.cc/LX0t8bbv/Ana-Castela.webp',
-  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp,
+  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp',
   'https://i.postimg.cc/dQgCNXZ3/Justin-Bieber.webp',
-  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp'
+  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp',
 ], 16000);
 
 // -----------------------------------------
@@ -76,7 +76,7 @@ createImageBlock('.album', [
   'https://i.postimg.cc/258Rp0LQ/Lavigne.webp',
   'https://i.postimg.cc/MKWYmNCj/Hungria-hip-Hop.webp',
   'https://i.postimg.cc/LX0t8bbv/Ana-Castela.webp',
-  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp,
+  'https://i.postimg.cc/Cx3bZ2Sp/Gabi-Sayuri.webp',
   'https://i.postimg.cc/dQgCNXZ3/Justin-Bieber.webp',
-  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp'
+  'https://i.postimg.cc/DZLhv85K/Lost-Frequence.webp',
 ], 16000);
