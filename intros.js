@@ -1,52 +1,61 @@
+// Função para criar um bloco de imagens que troca automaticamente
 function createImageBlock(containerSelector, imageUrls, interval = 3000) {
   const container = document.querySelector(containerSelector);
-  if (!container) return;
+  if (!container) return; // Se a div não existir, sai da função
 
   container.classList.add('image-block');
+  const images = [];
 
-  // Criamos apenas duas imagens para alternar
-  const imgA = document.createElement('img');
-  const imgB = document.createElement('img');
-  container.appendChild(imgA);
-  container.appendChild(imgB);
+  imageUrls.forEach(url => {
+    const img = document.createElement('img');
 
-  let currentIndex = 0;
-  let showingA = true;
+    // Imagem temporária (placeholder transparente)
+    img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+    img.dataset.src = url;
 
-  // Função para pré-carregar e mostrar imagem
-  function showImage(index) {
-    const nextUrl = imageUrls[index];
+    container.appendChild(img);
+    images.push(img);
 
-    const imgToShow = showingA ? imgB : imgA;
-    const imgToHide = showingA ? imgA : imgB;
+    // Pré-carrega a imagem real
+    const realImg = new Image();
+    realImg.src = url;
 
-    // Pré-carrega a imagem
-    const tempImg = new Image();
-    tempImg.src = nextUrl;
-    tempImg.onload = () => {
-      imgToShow.src = nextUrl;
+    // Quando carregar a imagem, atualiza o src
+    realImg.onload = () => {
+      img.src = url;
 
-      // Faz fade
-      imgToShow.classList.add('visible');
-      imgToHide.classList.remove('visible');
-
-      // Alterna para próxima
-      showingA = !showingA;
+      // Se ainda não tiver classe 'loaded', aplica imediatamente
+      if (!img.classList.contains('loaded')) {
+        requestAnimationFrame(() => {
+          img.classList.add('loaded');
+        });
+      }
     };
+
+    // Se a imagem já estiver no cache (local ou internet rápida), aplica imediatamente
+    if (realImg.complete) {
+      img.src = url;
+      img.classList.add('loaded');
+    }
+  });
+
+  // Exibe a primeira imagem de forma segura
+  let currentIndex = 0;
+  images[currentIndex].classList.add('loaded');
+
+  // Alterna as imagens automaticamente
+  if (images.length > 1) {
+    setInterval(() => {
+      images[currentIndex].classList.remove('loaded');
+      currentIndex = (currentIndex + 1) % images.length;
+      images[currentIndex].classList.add('loaded');
+    }, interval);
   }
-
-  // Inicializa com a primeira imagem
-  imgA.src = imageUrls[0];
-  imgA.classList.add('visible');
-
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % imageUrls.length;
-    showImage(currentIndex);
-  }, interval);
 }
 
-// ---------- Inicialização ----------
-
+// -----------------------------------------
+// #Playlist
+// -----------------------------------------
 createImageBlock('.playlist', [
   'app/wallker/1.jpg',
   'app/wallker/2.jpg',
@@ -64,6 +73,9 @@ createImageBlock('.playlist', [
   'app/splash/10.jpg',
 ], 16000);
 
+// -----------------------------------------
+// #Player
+// -----------------------------------------
 createImageBlock('.player', [
   'app/splash/7.jpg',
   'app/splash/5.jpg',
@@ -81,6 +93,9 @@ createImageBlock('.player', [
   'app/wallker/4.jpg',
 ], 16000);
 
+// -----------------------------------------
+// #Album
+// -----------------------------------------
 createImageBlock('.album', [
   'app/wallker/1.jpg',
   'app/wallker/2.jpg',
