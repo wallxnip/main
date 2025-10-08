@@ -16,7 +16,7 @@ const editors1 = [
         title: 'Drilland', 
         action: () => nlx("drilland"), 
         subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/vZpDdMGV/2.jpg' 
+        img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
     { 
         title: "EDM", 
