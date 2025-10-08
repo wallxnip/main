@@ -2,50 +2,42 @@ function createImageBlock(containerSelector, imageUrls, interval = 3000) {
   const container = document.querySelector(containerSelector);
   if (!container) return;
 
-  // Estilos do container
-  container.style.position = 'relative';
-  container.style.width = '100%';
-  container.style.height = '100%';
-  container.style.overflow = 'hidden';
+  container.classList.add('image-block');
 
+  // Criamos apenas duas imagens para alternar
   const imgA = document.createElement('img');
   const imgB = document.createElement('img');
-
-  [imgA, imgB].forEach(img => {
-    img.style.position = 'absolute';
-    img.style.top = '0';
-    img.style.left = '0';
-    img.style.width = '100%';
-    img.style.height = '100%';
-    img.style.objectFit = 'cover';
-    img.style.opacity = '0';
-    img.style.transition = 'opacity 0.8s ease-in-out';
-    container.appendChild(img);
-  });
+  container.appendChild(imgA);
+  container.appendChild(imgB);
 
   let currentIndex = 0;
   let showingA = true;
 
+  // Função para pré-carregar e mostrar imagem
   function showImage(index) {
     const nextUrl = imageUrls[index];
+
     const imgToShow = showingA ? imgB : imgA;
     const imgToHide = showingA ? imgA : imgB;
 
+    // Pré-carrega a imagem
     const tempImg = new Image();
     tempImg.src = nextUrl;
     tempImg.onload = () => {
       imgToShow.src = nextUrl;
 
-      imgToShow.style.opacity = '1';
-      imgToHide.style.opacity = '0';
+      // Faz fade
+      imgToShow.classList.add('visible');
+      imgToHide.classList.remove('visible');
 
+      // Alterna para próxima
       showingA = !showingA;
     };
   }
 
-  // Inicializa primeira imagem
+  // Inicializa com a primeira imagem
   imgA.src = imageUrls[0];
-  imgA.style.opacity = '1';
+  imgA.classList.add('visible');
 
   setInterval(() => {
     currentIndex = (currentIndex + 1) % imageUrls.length;
