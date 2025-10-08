@@ -10,7 +10,7 @@ imageUrls.forEach(url => {
 const img = document.createElement('img');
 
 // Imagem temporária (placeholder transparente)  
-img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';  
+img.src = '#';  
 img.dataset.src = url;  
 
 container.appendChild(img);  
