@@ -55,7 +55,7 @@ createImageBlock('.playlist', [
 'app/splash/8.jpg',
 'app/splash/9.jpg',
 'app/splash/10.jpg',
-], 1600);
+], 16000);
 
 // -----------------------------------------
 // #Player
@@ -75,7 +75,7 @@ createImageBlock('.player', [
 'app/wallker/2.jpg',
 'app/wallker/3.jpg',
 'app/wallker/4.jpg',
-], 1600);
+], 16000);
 
 // -----------------------------------------
 // #Album
@@ -100,4 +100,4 @@ createImageBlock('.album', [
 'app/splash/9.jpg',
 'app/splash/10.jpg',
 
-], 1600);
+], 16000);
