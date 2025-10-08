@@ -1,40 +1,42 @@
 // Função para criar um bloco de imagens que troca automaticamente
 function createImageBlock(containerSelector, imageUrls, interval = 3000) {
-  const container = document.querySelector(containerSelector);
-  if (!container) return; // Se a div não existir, sai da função
+const container = document.querySelector(containerSelector);
+if (!container) return; // Se a div não existir, sai da função
 
-  container.classList.add('image-block');
-  const images = [];
+container.classList.add('image-block');
+const images = [];
 
-  imageUrls.forEach(url => {
-    const img = document.createElement('img');
+imageUrls.forEach(url => {
+const img = document.createElement('img');
 
-    // Imagem temporária (placeholder transparente)
-    img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
-    img.dataset.src = url;
+// Imagem temporária (placeholder transparente)  
+img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';  
+img.dataset.src = url;  
 
-    container.appendChild(img);
-    images.push(img);
+container.appendChild(img);  
+images.push(img);  
 
-    // Pré-carrega a imagem real
-    const realImg = new Image();
-    realImg.src = url;
-    realImg.onload = () => {
-      img.src = url;
-    };
-  });
+// Pré-carrega a imagem real  
+const realImg = new Image();  
+realImg.src = url;  
+realImg.onload = () => {  
+  img.src = url;  
+};
 
-  // Exibe a primeira imagem
-  let currentIndex = 0;
-  images[currentIndex].classList.add('loaded');
+});
 
-  // Alterna as imagens automaticamente
-  setInterval(() => {
-    images[currentIndex].classList.remove('loaded');
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.add('loaded');
-  }, interval);
+// Exibe a primeira imagem
+let currentIndex = 0;
+images[currentIndex].classList.add('loaded');
+
+// Alterna as imagens automaticamente
+setInterval(() => {
+images[currentIndex].classList.remove('loaded');
+currentIndex = (currentIndex + 1) % images.length;
+images[currentIndex].classList.add('loaded');
+}, interval);
 }
+
 
 // -----------------------------------------
 // #Playlist
