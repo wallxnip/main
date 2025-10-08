@@ -10,7 +10,7 @@ const editors1 = [
         title: 'Summer (MIX)', 
         action: () => nlx("summer"), 
         subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/J4rFvrmT/8.jpg' 
+        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     },
     { 
         title: 'Drilland', 
@@ -22,7 +22,7 @@ const editors1 = [
         title: "EDM", 
         subtitle: 'Wallker', 
         action: () => nlx("alone"), 
-        img: 'https://i.postimg.cc/HxtL5yXw/1.png' 
+        img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
 ];
 
@@ -30,19 +30,19 @@ const charts1 = [
     { 
         title: 'Funk (MIX)', 
         charts: "Wallker", 
-        img: 'https://i.postimg.cc/Y2fVdGcG/4.png', 
+        img: 'https://i.postimg.cc/GhD4gwNY/Funk.webp', 
         action: () => nlx("funk") 
     },
     { 
         title: 'Hip-Hop', 
         charts: "Wallker", 
-        img: 'https://i.postimg.cc/2y8SxS7P/6.jpg', 
+        img: 'https://i.postimg.cc/s2XSNZy8/Hip-Hop.webp', 
         action: () => nlx("hiphop") 
     },
     { 
         title: "Temporal", 
         charts: 'Wallker', 
-        img: 'https://i.postimg.cc/TYFtZ4Fb/Beauty-Plus-20251002134530125-save.jpg', 
+        img: 'https://i.postimg.cc/25Yrw3LF/Temporal.webp', 
         action: () => nlx("temporal") 
     }
 ];
@@ -52,25 +52,25 @@ const releases1 = [
         title: 'Pisadinha do Vaqueiro', 
         artist: 'Francildo Silva',
         action: () => nlx("francildosilva"), 
-        img: 'https://i.postimg.cc/pXg3vxVc/Pisadinha-do-Vaqueiro.jpg' 
+        img: 'https://i.postimg.cc/2SYbMkP4/Pisadinha-do-Vaqueiro.webp' 
     },
     { 
         title: 'Axé das Antigas', 
         artist: 'Kiko Chicabana', 
         action: () => nlx("chicabana"), 
-        img: 'https://i.postimg.cc/d0f98rQq/Chicabana.jpg' 
+        img: 'https://i.postimg.cc/ZKc6xvMD/Chicabana.webp' 
     },
     { 
         title: 'Sky Love do Forró', 
         artist: 'Sky Love', 
         action: () => nlx("skylove"), 
-        img: 'https://i.postimg.cc/wBrkhLx9/Sou-Love.jpg' 
+        img: 'https://i.postimg.cc/mg4BBtLK/Sou-Love.webp' 
     },
     { 
         title: 'Apaixonado Sempre', 
         artist: 'Robério e seus Teclados', 
         action: () => nlx("roberio"), 
-        img: 'https://i.postimg.cc/xT8JDCKG/Rob-rio.jpg' 
+        img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
     },
 
 
