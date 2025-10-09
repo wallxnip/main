@@ -1,4 +1,3 @@
-
 // #Playlist
 createImageBlock('.playlist', [
   'app/wallker/1.jpg',
