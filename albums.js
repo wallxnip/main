@@ -7,6 +7,12 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
+        title: 'Crossover', 
+        action: () => nlx("crossover"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/5yqKVrHK/Wallker.webp' 
+    },
+    { 
         title: 'Summer (MIX)', 
         action: () => nlx("summer"), 
         subtitle: "Wallker", 
