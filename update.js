@@ -1,12 +1,12 @@
-    document.getElementById('updawn').addEventListener('click', () => {
-      // URL do arquivo no servidor
-      const url = 'https://wallxnip.github.io/releases/tymusic.updw';
 
-      // Cria um link temporário para forçar download
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'Ty Music 1.0.apk'; // nome do arquivo salvo
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    });
+document.getElementById('updawn').addEventListener('click', () => {
+  const url = 'https://wallxnip.github.io/releases/tymusic.updw';
+  const nomeArquivo = 'MeuAppNovaVersao.apk'; // nome que você quer
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = nomeArquivo; // aqui você muda o nome
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+});
