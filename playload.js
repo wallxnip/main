@@ -13,9 +13,11 @@ const playlists = {
   chicabana: playlist508,
   skylove: playlist509,
   roberio: playlist510,
+  crossover: playlist511,
 };
 
 const playlistOrder = [
+  'crossover',   // Crossover
   'funk',   // Funk (MIX)
   'hiphop', // Hip-Hop
   'summer',  // Summer (MIX)
