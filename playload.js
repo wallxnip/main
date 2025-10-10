@@ -1,6 +1,9 @@
 const playlists = {
   onclick1: playlist1,
-  onclick2: playlist2,
+  onclick2: playlist002,
+  onclick4: playlist004,
+
+
 
   drilland: playlist500,
   summer: playlist501,
