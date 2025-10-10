@@ -10,7 +10,7 @@ const editors1 = [
         title: 'Crossover', 
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/5yqKVrHK/Wallker.webp' 
+        img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
     },
     { 
         title: 'Summer (MIX)', 
