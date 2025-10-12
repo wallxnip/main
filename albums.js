@@ -87,32 +87,6 @@ const releases1 = [
 
 
 
-    { 
-        title: 'Pisadinha do Vaqueiro', 
-        artist: 'Francildo Silva',
-        action: () => nlx("francildosilva"), 
-        img: 'https://i.postimg.cc/2SYbMkP4/Pisadinha-do-Vaqueiro.webp' 
-    },
-    { 
-        title: 'Axé das Antigas', 
-        artist: 'Kiko Chicabana', 
-        action: () => nlx("chicabana"), 
-        img: 'https://i.postimg.cc/ZKc6xvMD/Chicabana.webp' 
-    },
-    { 
-        title: 'Sky Love do Forró', 
-        artist: 'Sky Love', 
-        action: () => nlx("skylove"), 
-        img: 'https://i.postimg.cc/mg4BBtLK/Sou-Love.webp' 
-    },
-    { 
-        title: 'Apaixonado Sempre', 
-        artist: 'Robério e seus Teclados', 
-        action: () => nlx("roberio"), 
-        img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
-    },
-
-
 ];
 
 
