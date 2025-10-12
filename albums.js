@@ -1,7 +1,7 @@
 // ===============================
 // Dados para página 1 (ações padronizadas como funções)
 // ===============================
-document.getElementById("playlist").innerText = "Playlists";
+document.getElementById("playlists").innerText = "Playlists";
 document.getElementById("recente").innerText = "Reproduzidas Recentemente";
 document.getElementById("pravoce").innerText = "Para você";
 
