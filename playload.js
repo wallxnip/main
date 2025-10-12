@@ -8,7 +8,6 @@ const playlists = {
   drilland: playlist500,
   summer: playlist501,
   hiphop: playlist502,
-  
   funk: playlist504,
   alone: playlist505,
   temporal: playlist506,
@@ -17,6 +16,7 @@ const playlists = {
   skylove: playlist509,
   roberio: playlist510,
   crossover: playlist511,
+  therock: playlist512,
 };
 
 const playlistOrder = [
@@ -25,6 +25,7 @@ const playlistOrder = [
   'hiphop', // Hip-Hop
   'summer',  // Summer (MIX)
   'temporal',  // Temporal
+  'therock',  // Top Rock (Clássic)
   'drilland',  // Drilland
   'alone',  // Alone(EDM)
   'onclick1',  // Lançamentos
