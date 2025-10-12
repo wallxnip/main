@@ -34,6 +34,12 @@ const editors1 = [
 
 const charts1 = [
     { 
+        title: 'Top Rock (Clássic)', 
+        charts: "Wallker", 
+        img: 'https://i.postimg.cc/nchyMbnj/TheRock.webp', 
+        action: () => nlx("therock") 
+    },
+    { 
         title: 'Funk (MIX)', 
         charts: "Wallker", 
         img: 'https://i.postimg.cc/GhD4gwNY/Funk.webp', 
