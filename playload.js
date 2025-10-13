@@ -2,7 +2,7 @@ const playlists = {
   onclick1: playlist1,
   onclick2: playlist002,
   onclick4: playlist004,
-
+  onclick5: playlist005,
 
 
   drilland: playlist500,
