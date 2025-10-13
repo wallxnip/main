@@ -29,8 +29,9 @@ const playlistOrder = [
   'drilland',  // Drilland
   'alone',  // Alone(EDM)
   'onclick1',  // Lançamentos
-  'onclick2',  //  Trilha Sonora
+  'onclick2',  // Em Tópico
   'onclick4',  // Favoritas
+  'onclick5',  // Trilha Sonora
   'francildosilva',  // Pisadinha do Vaqueiro
   'chicabana',  // Chicabana
   'skylove',  // Sky Love do forró
