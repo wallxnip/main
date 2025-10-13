@@ -1,3 +1,11 @@
-[
-  "https://wallxnip.github.io/playlists/playlist001.js",
-]
+
+{
+  "scripts": [
+    
+    {
+      "name": "Player de Música",
+      "src": "https://wallxnip.github.io/playlists/playlist001.js",
+      "defer": true
+    }
+  ]
+}
