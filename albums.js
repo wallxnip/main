@@ -42,7 +42,7 @@ const charts1 = [
     { 
         title: 'Funk (MIX)', 
         charts: "Wallker", 
-        img: 'https://i.postimg.cc/VvmPhmfq/Funk.webp', 
+        img: 'https://i.postimg.cc/RhYxG80b/Funk.webp', 
         action: () => nlx("funk") 
     },
     { 
