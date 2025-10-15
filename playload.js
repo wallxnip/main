@@ -8,6 +8,7 @@ const playlists = {
   drilland: playlist500,
   summer: playlist501,
   hiphop: playlist502,
+  neffex: playlist503,
   funk: playlist504,
   alone: playlist505,
   temporal: playlist506,
@@ -22,6 +23,7 @@ const playlists = {
 const playlistOrder = [
   'crossover',   // Crossover
   'funk',   // Funk (MIX)
+  'neffex',   // NEFFEX
   'hiphop', // Hip-Hop
   'summer',  // Summer (MIX)
   'temporal',  // Temporal
