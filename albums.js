@@ -84,7 +84,12 @@ const releases1 = [
         action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
     },
-
+    { 
+        title: 'Bestiny', 
+        artist: 'NEFFEX', 
+        action: () => nlx("neffex"), 
+        img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
+    },
 
 
 ];
