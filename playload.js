@@ -1,4 +1,5 @@
 const playlists = {
+  favoritas: [] // inicializa vazia, será preenchida dinamicamente
   onclick1: playlist1,
   onclick2: playlist002,
   onclick4: playlist004,
