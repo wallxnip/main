@@ -19,12 +19,14 @@ const playlists = {
   roberio: playlist510,
   crossover: playlist511,
   therock: playlist512,
+  latina: playlist513,
 };
 
 const playlistOrder = [
   'crossover',   // Crossover
   'funk',   // Funk (MIX)
   'neffex',   // NEFFEX
+  'latina',   // Latina
   'hiphop', // Hip-Hop
   'summer',  // Summer (MIX)
   'temporal',  // Temporal
