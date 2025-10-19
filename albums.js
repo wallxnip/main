@@ -90,6 +90,18 @@ const releases1 = [
         action: () => nlx("neffex"), 
         img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
     },
+    { 
+        title: 'As Melhores', 
+        artist: 'Latina', 
+        action: () => nlx("latina"), 
+        img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
+    },
+
+
+
+
+
+
 
 
 ];
