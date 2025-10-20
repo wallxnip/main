@@ -20,11 +20,13 @@ const playlists = {
   crossover: playlist511,
   therock: playlist512,
   latina: playlist513,
+  gamex: playlist514,
 };
 
 const playlistOrder = [
   'crossover',   // Crossover
   'funk',   // Funk (MIX)
+  'gamex',   // Trilha Sonora de Games
   'neffex',   // NEFFEX
   'latina',   // Latina
   'hiphop', // Hip-Hop
