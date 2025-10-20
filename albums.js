@@ -100,7 +100,7 @@ const releases1 = [
         title: 'Trilha Sonora de Games', 
         artist: 'The Last Frequency', 
         action: () => nlx("gamex"), 
-        img: 'https://i.postimg.cc/Pxp1ctMn/lc.webp' 
+        img: 'https://i.postimg.cc/Vkthn8t9/legacy.webp' 
     },
 
 
