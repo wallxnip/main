@@ -96,7 +96,12 @@ const releases1 = [
         action: () => nlx("latina"), 
         img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
     },
-
+    { 
+        title: 'Trilha Sonora de Games', 
+        artist: 'The Last Frequency', 
+        action: () => nlx("gamex"), 
+        img: 'https://i.postimg.cc/Pxp1ctMn/lc.webp' 
+    },
 
 
 
