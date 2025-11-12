@@ -7,26 +7,26 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
-        title_: 'Crossover', 
+        title: ' ', 
         action: () => nlx("crossover"), 
-        subtitle_: "Wallker", 
+        subtitle: " ", 
         img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
     },
     { 
-        title_: 'Summer (MIX)', 
+        title: ' ', 
         action: () => nlx("summer"), 
-        subtitle_: "Wallker", 
+        subtitle: " ", 
         img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     },
     { 
-        title_: 'Drilland', 
+        title: ' ', 
         action: () => nlx("drilland"), 
-        subtitle_: "Wallker", 
+        subtitle: " ", 
         img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
     { 
-        title_: "EDM", 
-        subtitle_: 'Wallker', 
+        title_: " ", 
+        subtitle_: ' ', 
         action: () => nlx("alone"), 
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
