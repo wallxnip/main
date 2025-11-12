@@ -25,8 +25,8 @@ const editors1 = [
         img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
     { 
-        title_: " ", 
-        subtitle_: ' ', 
+        title: " ", 
+        subtitle: ' ', 
         action: () => nlx("alone"), 
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
@@ -34,26 +34,26 @@ const editors1 = [
 
 const charts1 = [
     { 
-        title: 'Top Rock (Clássic)', 
-        charts: "Wallker", 
+        title: ' ', 
+        charts: " ", 
         img: 'https://i.postimg.cc/nchyMbnj/TheRock.webp', 
         action: () => nlx("therock") 
     },
     { 
-        title: 'Funk (MIX)', 
-        charts: "Wallker", 
+        title: ' ', 
+        charts: " ", 
         img: 'https://i.postimg.cc/RhYxG80b/Funk.webp', 
         action: () => nlx("funk") 
     },
     { 
-        title: 'Hip-Hop', 
-        charts: "Wallker", 
+        title: ' ', 
+        charts: " ", 
         img: 'https://i.postimg.cc/s2XSNZy8/Hip-Hop.webp', 
         action: () => nlx("hiphop") 
     },
     { 
-        title: "Temporal", 
-        charts: 'Wallker', 
+        title: " ", 
+        charts: ' ', 
         img: 'https://i.postimg.cc/25Yrw3LF/Temporal.webp', 
         action: () => nlx("temporal") 
     }
@@ -61,44 +61,44 @@ const charts1 = [
 
 const releases1 = [
     { 
-        title: 'Pisadinha do Vaqueiro', 
-        artist: 'Francildo Silva',
+        title: ' ', 
+        artist: ' ',
         action: () => nlx("francildosilva"), 
         img: 'https://i.postimg.cc/2SYbMkP4/Pisadinha-do-Vaqueiro.webp' 
     },
     { 
-        title: 'Axé das Antigas', 
-        artist: 'Kiko Chicabana', 
+        title: ' ', 
+        artist: ' ', 
         action: () => nlx("chicabana"), 
         img: 'https://i.postimg.cc/ZKc6xvMD/Chicabana.webp' 
     },
     { 
-        title: 'Sky Love do Forró', 
-        artist: 'Sky Love', 
+        title: ' ', 
+        artist: ' ', 
         action: () => nlx("skylove"), 
         img: 'https://i.postimg.cc/mg4BBtLK/Sou-Love.webp' 
     },
     { 
-        title: 'Apaixonado Sempre', 
-        artist: 'Robério e seus Teclados', 
+        title: ' ', 
+        artist: ' ', 
         action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
     },
     { 
-        title: 'Bestiny', 
-        artist: 'NEFFEX', 
+        title: ' ', 
+        artist: ' ', 
         action: () => nlx("neffex"), 
         img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
     },
     { 
-        title: 'As Melhores', 
-        artist: 'Latina', 
+        title: ' ', 
+        artist: ' ', 
         action: () => nlx("latina"), 
         img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
     },
     { 
-        title: 'Trilha Sonora de Games', 
-        artist: 'The Last Frequency', 
+        title: ' ', 
+        artist: ' ', 
         action: () => nlx("gamex"), 
         img: 'https://i.postimg.cc/TYvxsCc7/legacy.webp' 
     },
