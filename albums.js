@@ -7,26 +7,26 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
-        title: 'Crossover', 
+        title_: 'Crossover', 
         action: () => nlx("crossover"), 
-        subtitle: "Wallker", 
+        subtitle_: "Wallker", 
         img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
     },
     { 
-        title: 'Summer (MIX)', 
+        title_: 'Summer (MIX)', 
         action: () => nlx("summer"), 
-        subtitle: "Wallker", 
+        subtitle_: "Wallker", 
         img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     },
     { 
-        title: 'Drilland', 
+        title_: 'Drilland', 
         action: () => nlx("drilland"), 
-        subtitle: "Wallker", 
+        subtitle_: "Wallker", 
         img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
     { 
-        title: "EDM", 
-        subtitle: 'Wallker', 
+        title_: "EDM", 
+        subtitle_: 'Wallker', 
         action: () => nlx("alone"), 
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
@@ -136,8 +136,8 @@ function makeCard(data) {
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
     <div style="position:absolute;left:12px;bottom:12px">
-      <div class="fft title">${data.title2}</div>
-      <div class="fft meta">${data.subtitle||data.artist2||data.charts||''}</div>
+      <div class="fft title">${data.title}</div>
+      <div class="fft meta">${data.subtitle||data.artist||data.charts||''}</div>
     </div>
   `;
   div.appendChild(a);
