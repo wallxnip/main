@@ -137,7 +137,7 @@ function makeCard(data) {
     </div>
     <div style="position:absolute;left:12px;bottom:12px">
       <div class="fft title">${data.title2}</div>
-      <div class="fft meta">${data.subtitle2||data.artist2||data.charts||''}</div>
+      <div class="fft meta">${data.subtitle||data.artist2||data.charts||''}</div>
     </div>
   `;
   div.appendChild(a);
