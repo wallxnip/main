@@ -7,9 +7,9 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
-        title: ' ', 
+        title: 'Crossover', 
         action: () => nlx("crossover"), 
-        subtitle: " ", 
+        subtitle: "Wallker", 
         img: 'https://i.postimg.cc/cCtYCdnK/Wallker.webp' 
     },
     { 
