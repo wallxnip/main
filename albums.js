@@ -131,7 +131,7 @@ function makeCard(data) {
   }
 
   a.innerHTML = `
-    <div class="rpd" onclick="showPlaylist()"width:100%;height:100%;position:absolute;inset:0;overflow:hidden;border-radius:14px">
+    <div class="rpd" onclick="showPlaylist()" style="position:absolute;inset:0;overflow:hidden;border-radius:14px">
       <img src="${data.img}" style="width:100%;height:100%;object-fit:cover"/>
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
