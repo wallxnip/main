@@ -183,50 +183,40 @@ function populate1() {
 }
 populate1();
 
-
-
-
 // ===============================
-// Pesquisa página 1 (compatível com seu código)
+// Pesquisa página 1
 // ===============================
 document.getElementById('searchInput1').addEventListener('input', (e) => {
-
   const query = e.target.value.toLowerCase();
   const hasQuery = query.trim() !== "";
 
-  // Esconde títulos
+  // Esconde/Mostra títulos
   document.getElementById("playlists").style.display = hasQuery ? "none" : "";
   document.getElementById("recente").style.display = hasQuery ? "none" : "";
   document.getElementById("pravoce").style.display = hasQuery ? "none" : "";
 
-  // Seções
-  const editors = document.getElementById('editors1');
-  const charts  = document.getElementById('charts1');
-  const releases = document.getElementById('releases1');
+  // Seções da página
+  const sections = [
+    document.getElementById('editors1'),
+    document.getElementById('charts1'),
+    document.getElementById('releases1'),
+  ];
 
-  // Todos os cards já criados
-  const cards = document.querySelectorAll('#page1 .card');
+  const allCards = document.querySelectorAll('#page1 .card');
 
-  // Ativa grade unificada quando pesquisando
-  if (hasQuery) {
-    editors.classList.add("search-grid");
-    charts.classList.add("search-grid");
-    releases.classList.add("search-grid");
-  } else {
-    editors.classList.remove("search-grid");
-    charts.classList.remove("search-grid");
-    releases.classList.remove("search-grid");
-  }
-
-  // FILTRO
-  cards.forEach(card => {
-    const t = card.querySelector('.title')?.textContent.toLowerCase() || "";
-    const m = card.querySelector('.meta')?.textContent.toLowerCase() || "";
-
-    const show = t.includes(query) || m.includes(query);
-    card.style.display = show ? "flex" : "none";
+  // Ativa grade unificada durante a busca
+  sections.forEach(sec => {
+    sec.classList.toggle('search-grid', hasQuery);
   });
 
+  // Aplica filtro nos cards
+  allCards.forEach(card => {
+    const title = card.querySelector('.title')?.textContent.toLowerCase() || '';
+    const meta = card.querySelector('.meta')?.textContent.toLowerCase() || '';
+    const visible = title.includes(query) || meta.includes(query);
+
+    card.style.display = visible ? "flex" : "none";
+  });
 });
 
 
