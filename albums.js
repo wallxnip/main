@@ -136,7 +136,6 @@ function makeCard(data) {
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
     <div style="position:absolute;left:12px;bottom:12px">
-      <div class="fft title"> ${data.title2}</div>
       <div class="fft meta">${data.subtitle||data.artist2||data.charts||''}</div>
     </div>
   `;
