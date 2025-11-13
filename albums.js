@@ -100,7 +100,7 @@ const releases1 = [
         title: ' ', 
         artist: ' ', 
         action: () => nlx("gamex"), 
-        img: 'https://i.postimg.cc/TYvxsCc7/legacy.webp' 
+        img: 'https://i.postimg.cc/9XKGHph7/legacy.webp' 
     },
 
 
