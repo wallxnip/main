@@ -188,13 +188,23 @@ populate1();
 // ===============================
 document.getElementById('searchInput1').addEventListener('input', (e) => {
   const query = e.target.value.toLowerCase();
+
+  // 1 — Esconde/mostra os títulos quando há pesquisa
+  const hasQuery = query.trim() !== "";
+  document.getElementById("playlists").style.display = hasQuery ? "none" : "";
+  document.getElementById("recente").style.display = hasQuery ? "none" : "";
+  document.getElementById("pravoce").style.display = hasQuery ? "none" : "";
+
+  // 2 — Busca unificada em TODAS as seções
   const allCards = document.querySelectorAll('#page1 .card');
+
   allCards.forEach(card => {
     const title = card.querySelector('.title')?.textContent.toLowerCase() || '';
     const meta = card.querySelector('.meta')?.textContent.toLowerCase() || '';
+
     const visible = title.includes(query) || meta.includes(query);
-    if (card.classList.contains('small')) card.style.display = visible ? 'grid' : 'none';
-    else card.style.display = visible ? 'flex' : 'none';
+
+    card.style.display = visible ? "flex" : "none"; // tudo fica igual
   });
 });
 
