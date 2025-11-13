@@ -172,7 +172,7 @@ function populate1() {
       <img src="${it.img}" style="width:100%;height:100%;object-fit:cover"/>
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
-      <div style="position:absolute;left:12px;bottom:12px">
+      <div style="visibility: hidden;position:absolute;left:12px;bottom:12px">
         <div class="fft title">${it.title}</div>
         <div class="fft meta">${it.artist}</div>
       </div>
