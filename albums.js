@@ -208,16 +208,32 @@ function runSearchPage1(query) {
   const box = document.getElementById("searchResults");
   const grid = document.getElementById("searchGrid");
 
+  // ==============================
+  // SE CAMPO ESTÁ VAZIO → VOLTA HOME
+  // ==============================
   if (q === "") {
     box.style.display = "none";
     grid.innerHTML = "";
+
+    // mostrar de volta toda a home
+    document.getElementById("playlists").style.display = "block";
+    document.getElementById("recente").style.display = "block";
+    document.getElementById("pravoce").style.display = "block";
+
+    document.getElementById("editors1").style.display = "grid";
+    document.getElementById("charts1").style.display = "grid";
+    document.getElementById("releases1").style.display = "grid";
     return;
   }
 
+  // ==============================
+  // MOSTRAR ÁREA DE PESQUISA
+  // ==============================
   box.style.display = "block";
   grid.style.display = "grid";
   grid.innerHTML = "";
 
+  // esconder home
   document.getElementById("playlists").style.display = "none";
   document.getElementById("recente").style.display = "none";
   document.getElementById("pravoce").style.display = "none";
@@ -226,16 +242,25 @@ function runSearchPage1(query) {
   document.getElementById("charts1").style.display = "none";
   document.getElementById("releases1").style.display = "none";
 
+  // ==============================
+  // GERAR CARDS DA PESQUISA
+  // ==============================
   const results = allSearchItems.filter(it =>
     it.title.toLowerCase().includes(q) ||
     it.artist.toLowerCase().includes(q)
   );
 
+  // se não tem resultados → evitar tela branca
+  if (results.length === 0) {
+    grid.innerHTML = "<p style='color:#aaa;padding:10px;'>Nenhum resultado encontrado.</p>";
+    return;
+  }
+
+  // criar cards normais
   results.forEach(it => {
     grid.appendChild(createSearchCard(it));
   });
 }
-
 
 // ===============================
 // Event delegation showPlaylist
