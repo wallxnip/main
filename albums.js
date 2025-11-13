@@ -7,32 +7,6 @@ document.getElementById("pravoce").innerText = "Para você";
 // ===============================
 // LISTA UNIFICADA PARA PESQUISA
 // ===============================
-const allSearchItems = [
-
-    // ---------- EDITORS ----------
-    ...editors1.map(v => ({
-        title: v.title,
-        artist: v.subtitle || "",
-        img: v.img,
-        action: v.action
-    })),
-
-    // ---------- CHARTS ----------
-    ...charts1.map(v => ({
-        title: v.title,
-        artist: v.charts || "",
-        img: v.img,
-        action: v.action
-    })),
-
-    // ---------- RELEASES ----------
-    ...releases1.map(v => ({
-        title: v.title,
-        artist: v.artist || "",
-        img: v.img,
-        action: v.action
-    }))
-];
 
 const editors1 = [
     { 
@@ -133,6 +107,32 @@ const releases1 = [
     },
 ];
 
+const allSearchItems = [
+
+    // ---------- EDITORS ----------
+    ...editors1.map(v => ({
+        title: v.title,
+        artist: v.subtitle || "",
+        img: v.img,
+        action: v.action
+    })),
+
+    // ---------- CHARTS ----------
+    ...charts1.map(v => ({
+        title: v.title,
+        artist: v.charts || "",
+        img: v.img,
+        action: v.action
+    })),
+
+    // ---------- RELEASES ----------
+    ...releases1.map(v => ({
+        title: v.title,
+        artist: v.artist || "",
+        img: v.img,
+        action: v.action
+    }))
+];
 
 // ===============================
 // Função para criar cards
