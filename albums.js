@@ -188,25 +188,40 @@ populate1();
 // ===============================
 document.getElementById('searchInput1').addEventListener('input', (e) => {
   const query = e.target.value.toLowerCase();
-
-  // 1 — Esconde/mostra os títulos quando há pesquisa
   const hasQuery = query.trim() !== "";
+
+  // Esconde/Mostra títulos
   document.getElementById("playlists").style.display = hasQuery ? "none" : "";
   document.getElementById("recente").style.display = hasQuery ? "none" : "";
   document.getElementById("pravoce").style.display = hasQuery ? "none" : "";
 
-  // 2 — Busca unificada em TODAS as seções
+  // Seções da página
+  const sections = [
+    document.getElementById('editors1'),
+    document.getElementById('charts1'),
+    document.getElementById('releases1'),
+  ];
+
   const allCards = document.querySelectorAll('#page1 .card');
 
+  // Ativa grade unificada durante a busca
+  sections.forEach(sec => {
+    sec.classList.toggle('search-grid', hasQuery);
+  });
+
+  // Aplica filtro nos cards
   allCards.forEach(card => {
     const title = card.querySelector('.title')?.textContent.toLowerCase() || '';
     const meta = card.querySelector('.meta')?.textContent.toLowerCase() || '';
-
     const visible = title.includes(query) || meta.includes(query);
 
-    card.style.display = visible ? "flex" : "none"; // tudo fica igual
+    card.style.display = visible ? "flex" : "none";
   });
 });
+
+
+
+
 
 // ===============================
 // Event delegation para showPlaylist em todas as abas
