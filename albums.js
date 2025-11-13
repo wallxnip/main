@@ -135,7 +135,7 @@ function makeCard(data) {
       <img src="${data.img}" style="width:100%;height:100%;object-fit:cover"/>
       <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
     </div>
-    <div style="style="display: none;position:absolute;left:12px;bottom:12px">
+    <div style="visibility: hidden;position:absolute;left:12px;bottom:12px">
       <div class="fft title">${data.title}</div>
       <div class="fft meta">${data.subtitle}</div>
     </div>
