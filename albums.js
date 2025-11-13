@@ -57,24 +57,3 @@ document.getElementById('releases1').appendChild(div);
 // =============================== // SISTEMA DE PESQUISA COMPLETO // =============================== document.getElementById('searchInput1').addEventListener('input', (e) => { const query = e.target.value.toLowerCase().trim(); const hasQuery = query !== "";
 
 // Títulos document.getElementById("playlists").style
-title.textContent = item.title;
-    title.style.fontSize = '14px';
-    title.style.fontWeight = '600';
-    title.style.color = '#fff';
-    title.style.marginBottom = '5px';
-
-    const artist = document.createElement('p');
-    artist.textContent = item.artist;
-    artist.style.fontSize = '12px';
-    artist.style.opacity = '0.7';
-    artist.style.color = '#fff';
-
-    textBox.appendChild(title);
-    textBox.appendChild(artist);
-
-    card.appendChild(img);
-    card.appendChild(textBox);
-
-    resultsContainer.appendChild(card);
-  });
-}
