@@ -102,7 +102,6 @@ const releases1 = [
         action: () => nlx("gamex"), 
         img: 'https://i.postimg.cc/TYvxsCc7/legacy.webp' 
     },
-
 ];
 
 
@@ -115,11 +114,9 @@ function makeCard(data) {
 
   const a = document.createElement('a');
 
-  // se for string, usa como onclick inline
   if (typeof data.action === "string") {
     a.setAttribute("onclick", data.action);
   }
-  // se for função, associa diretamente
   else if (typeof data.action === "function") {
     a.onclick = data.action;
   }
@@ -139,23 +136,20 @@ function makeCard(data) {
 }
 
 // ===============================
-// Popula página 1 (correção charts1)
+// Popula página 1
 // ===============================
 function populate1() {
-  // Editors
   editors1.forEach(it => document.getElementById('editors1').appendChild(makeCard(it)));
 
-  // Charts (corrigido: agora passa action)
   charts1.forEach(it => document.getElementById('charts1')
     .appendChild(makeCard({
       title: it.title,
       subtitle: it.charts,
       img: it.img,
-      action: it.action   // <- correção aplicada
+      action: it.action
     }))
   );
 
-  // Releases
   releases1.forEach(it => {
     const div = document.createElement('div');
     div.className = 'card small';
@@ -183,56 +177,104 @@ function populate1() {
 }
 populate1();
 
+
+
+// ========================================================================
+// >>> ADICIONADO: NOVA ÁREA CENTRALIZADA PARA CARDS DE PESQUISA (3 POR LINHA)
+// ========================================================================
+const searchGrid = document.createElement("div");
+searchGrid.id = "searchGrid";
+searchGrid.style.display = "none";
+searchGrid.style.marginTop = "12px";
+searchGrid.className = "cardsRow"; // usa exatamente o mesmo layout
+
+document.getElementById("searchResults").appendChild(searchGrid);
+// ========================================================================
+// >>> FIM
+// ========================================================================
+
+
+
 // ===============================
 // Pesquisa página 1
 // ===============================
-document.getElementById('searchInput1').addEventListener('input', (e) => {
-  const query = e.target.value.toLowerCase();
-  const hasQuery = query.trim() !== "";
-
-  // Esconde/Mostra títulos
-  document.getElementById("playlists").style.display = hasQuery ? "none" : "";
-  document.getElementById("recente").style.display = hasQuery ? "none" : "";
-  document.getElementById("pravoce").style.display = hasQuery ? "none" : "";
-
-  // Seções da página
-  const sections = [
-    document.getElementById('editors1'),
-    document.getElementById('charts1'),
-    document.getElementById('releases1'),
-  ];
-
-  const allCards = document.querySelectorAll('#page1 .card');
-
-  // Ativa grade unificada durante a busca
-  sections.forEach(sec => {
-    sec.classList.toggle('search-grid', hasQuery);
-  });
-
-  // Aplica filtro nos cards
-  allCards.forEach(card => {
-    const title = card.querySelector('.title')?.textContent.toLowerCase() || '';
-    const meta = card.querySelector('.meta')?.textContent.toLowerCase() || '';
-    const visible = title.includes(query) || meta.includes(query);
-
-    card.style.display = visible ? "flex" : "none";
-  });
+document.getElementById("searchInput1").addEventListener("input", e => {
+  runSearchPage1(e.target.value);
 });
 
+function runSearchPage1(query) {
+  const q = query.toLowerCase().trim();
 
+  const box = document.getElementById("searchResults");
+  const grid = document.getElementById("searchGrid");
 
+  if (q === "") {
+    box.style.display = "none";
+    grid.innerHTML = "";
+    return;
+  }
+
+  box.style.display = "block";
+  grid.style.display = "grid";
+  grid.innerHTML = "";
+
+  document.getElementById("playlists").style.display = "none";
+  document.getElementById("recente").style.display = "none";
+  document.getElementById("pravoce").style.display = "none";
+
+  document.getElementById("editors1").style.display = "none";
+  document.getElementById("charts1").style.display = "none";
+  document.getElementById("releases1").style.display = "none";
+
+  const results = allSearchItems.filter(it =>
+    it.title.toLowerCase().includes(q) ||
+    it.artist.toLowerCase().includes(q)
+  );
+
+  results.forEach(it => {
+    grid.appendChild(createSearchCard(it));
+  });
+}
 
 
 // ===============================
-// Event delegation para showPlaylist em todas as abas
+// Event delegation showPlaylist
 // ===============================
 document.addEventListener('click', (e) => {
-  const link = e.target.closest('a'); // encontra o <a> mais próximo
+  const link = e.target.closest('a');
   if (!link) return;
 
   const onclickAttr = link.getAttribute('onclick');
   if (onclickAttr && onclickAttr.includes('showPlaylist')) {
-    e.preventDefault(); // evita comportamento padrão do <a>
-    showPlaylist();     // chama a função
+    e.preventDefault();
+    showPlaylist();
   }
 });
+
+
+function createSearchCard(it) {
+  const div = document.createElement('div');
+  div.className = 'card';
+
+  const a = document.createElement('a');
+
+  if (typeof it.action === "string") {
+    a.setAttribute("onclick", it.action);
+  } else if (typeof it.action === "function") {
+    a.onclick = it.action;
+  }
+
+  a.innerHTML = `
+    <div class="rpd" onclick="showPlaylist()" style="position:absolute;inset:0;overflow:hidden;border-radius:14px">
+      <img src="${it.img}" style="width:100%;height:100%;object-fit:cover"/>
+      <div style="position:absolute;inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.3));"></div>
+    </div>
+    <div style="visibility: hidden;position:absolute;left:12px;bottom:12px">
+      <div class="fft title">${it.title}</div>
+      <div class="fft meta">${it.artist}</div>
+    </div>
+  `;
+
+  div.appendChild(a);
+  return div;
+}
