@@ -10,23 +10,23 @@ const editors1 = [
         title: 'Crossover', 
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/cCtYCdnK/Wallker.webp' 
+        img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
     },
     { 
-        title: ' ', 
+        title: 'Summer (MIX)', 
         action: () => nlx("summer"), 
-        subtitle: " ", 
+        subtitle: "Wallker", 
         img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     },
     { 
-        title: ' ', 
+        title: 'Drilland', 
         action: () => nlx("drilland"), 
-        subtitle: " ", 
+        subtitle: "Wallker", 
         img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
     { 
-        title: " ", 
-        subtitle: ' ', 
+        title: "EDM", 
+        subtitle: 'Wallker', 
         action: () => nlx("alone"), 
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
@@ -34,26 +34,26 @@ const editors1 = [
 
 const charts1 = [
     { 
-        title: ' ', 
-        charts: " ", 
+        title: 'Top Rock (Clássic)', 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/nchyMbnj/TheRock.webp', 
         action: () => nlx("therock") 
     },
     { 
-        title: ' ', 
-        charts: " ", 
+        title: 'Funk (MIX)', 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/RhYxG80b/Funk.webp', 
         action: () => nlx("funk") 
     },
     { 
-        title: ' ', 
-        charts: " ", 
+        title: 'Hip-Hop', 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/s2XSNZy8/Hip-Hop.webp', 
         action: () => nlx("hiphop") 
     },
     { 
-        title: " ", 
-        charts: ' ', 
+        title: "Temporal", 
+        charts: 'Wallker', 
         img: 'https://i.postimg.cc/25Yrw3LF/Temporal.webp', 
         action: () => nlx("temporal") 
     }
@@ -61,54 +61,48 @@ const charts1 = [
 
 const releases1 = [
     { 
-        title: ' ', 
-        artist: ' ',
+        title: 'Pisadinha do Vaqueiro', 
+        artist: 'Francildo Silva',
         action: () => nlx("francildosilva"), 
         img: 'https://i.postimg.cc/2SYbMkP4/Pisadinha-do-Vaqueiro.webp' 
     },
     { 
-        title: ' ', 
-        artist: ' ', 
+        title: 'Axé das Antigas', 
+        artist: 'Kiko Chicabana', 
         action: () => nlx("chicabana"), 
         img: 'https://i.postimg.cc/ZKc6xvMD/Chicabana.webp' 
     },
     { 
-        title: ' ', 
-        artist: ' ', 
+        title: 'Sky Love do Forró', 
+        artist: 'Sky Love', 
         action: () => nlx("skylove"), 
         img: 'https://i.postimg.cc/mg4BBtLK/Sou-Love.webp' 
     },
     { 
-        title: ' ', 
-        artist: ' ', 
+        title: 'Apaixonado Sempre', 
+        artist: 'Robério e seus Teclados', 
         action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
     },
     { 
-        title: ' ', 
-        artist: ' ', 
+        title: 'Bestiny', 
+        artist: 'NEFFEX', 
         action: () => nlx("neffex"), 
         img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
     },
     { 
-        title: ' ', 
-        artist: ' ', 
+        title: 'As Melhores', 
+        artist: 'Latina', 
         action: () => nlx("latina"), 
         img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
     },
     { 
-        title: ' ', 
-        artist: ' ', 
+        title: 'Trilha Sonora de Games', 
+        artist: 'The Last Frequency', 
         action: () => nlx("gamex"), 
-        img: 'https://i.postimg.cc/9XKGHph7/legacy.webp' 
+        img: 'https://i.postimg.cc/TYvxsCc7/legacy.webp' 
     },
-
-
-
-
-
-
-
+    
 ];
 
 
