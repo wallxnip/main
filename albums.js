@@ -7,6 +7,12 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
+        title: 'Rei do Universo', 
+        action: () => nlx("jesus"), 
+        subtitle: "Jesus", 
+        img: 'https://i.postimg.cc/rFpZHjSC/ohohrei.webp' 
+    },
+    { 
         title: 'Crossover', 
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
