@@ -21,9 +21,11 @@ const playlists = {
   therock: playlist512,
   latina: playlist513,
   gamex: playlist514,
+  jesus: playlist515,
 };
 
 const playlistOrder = [
+  'jesus',   // Oh Oh Rei o Universo
   'crossover',   // Crossover
   'funk',   // Funk (MIX)
   'gamex',   // Trilha Sonora de Games
