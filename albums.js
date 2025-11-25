@@ -16,7 +16,7 @@ const editors1 = [
         title: 'Meditação', 
         action: () => nlx("zentopia"), 
         subtitle: "Zentopia", 
-        img: 'https://i.postimg.cc/rFpZHjSC/ohohrei.webp'
+        img: 'https://i.postimg.cc/3RdRghr8/Zentopia.webp'
     },
     { 
         title: 'Crossover', 
