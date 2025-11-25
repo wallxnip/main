@@ -13,6 +13,12 @@ const editors1 = [
         img: 'https://i.postimg.cc/rFpZHjSC/ohohrei.webp' 
     },
     { 
+        title: 'Meditação', 
+        action: () => nlx("zentopia"), 
+        subtitle: "Zentopia", 
+        img: 'https://i.postimg.cc/rFpZHjSC/ohohrei.webp'
+    },
+    { 
         title: 'Crossover', 
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
