@@ -114,7 +114,7 @@ const releases1 = [
         artist: 'The Last Frequency', 
         action: () => nlx("gamex"), 
         img: 'https://i.postimg.cc/9XKGHph7/Legacy.webp' 
-    },
+    }
 
 ];
 
