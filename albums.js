@@ -16,7 +16,7 @@ const editors1 = [
         title: 'Rei do Universo', 
         action: () => nlx("jesus"), 
         subtitle: "Jesus", 
-        img: 'https://i.postimg.cc/rFpZHjSC/ohohrei.webp' 
+        img: 'https://i.postimg.cc/FFdLycDz/js.webp' 
     },
     { 
         title: 'Crossover', 
