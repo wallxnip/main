@@ -23,24 +23,6 @@ const editors1 = [
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
         img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
-    },
-    { 
-        title: 'Summer (MIX)', 
-        action: () => nlx("summer"), 
-        subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
-    },
-    { 
-        title: 'Drilland', 
-        action: () => nlx("drilland"), 
-        subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
-    },
-    { 
-        title: "EDM", 
-        subtitle: 'Wallker', 
-        action: () => nlx("alone"), 
-        img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
 ];
 
@@ -68,6 +50,24 @@ const charts1 = [
         charts: 'Wallker', 
         img: 'https://i.postimg.cc/25Yrw3LF/Temporal.webp', 
         action: () => nlx("temporal") 
+    },
+    { 
+        title: 'Summer (MIX)', 
+        action: () => nlx("summer"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
+    },
+    { 
+        title: 'Drilland', 
+        action: () => nlx("drilland"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
+    },
+    { 
+        title: "EDM", 
+        subtitle: 'Wallker', 
+        action: () => nlx("alone"), 
+        img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     }
 ];
 
