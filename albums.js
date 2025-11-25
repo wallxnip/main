@@ -19,14 +19,21 @@ const editors1 = [
         img: 'https://i.postimg.cc/FFdLycDz/js.webp' 
     },
     { 
+        title: 'Bestiny', 
+        subtitle: 'NEFFEX', 
+        action: () => nlx("neffex"), 
+        img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
+    }
+    
+];
+
+const charts1 = [
+    { 
         title: 'Crossover', 
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
         img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
-    }
-];
-
-const charts1 = [
+    },
     { 
         title: 'Top Rock (Clássic)', 
         charts: "Wallker", 
@@ -95,12 +102,6 @@ const releases1 = [
         artist: 'Robério e seus Teclados', 
         action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
-    },
-    { 
-        title: 'Bestiny', 
-        artist: 'NEFFEX', 
-        action: () => nlx("neffex"), 
-        img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
     },
     { 
         title: 'As Melhores', 
