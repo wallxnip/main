@@ -7,16 +7,16 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
+        title: 'Meditação', 
+        action: () => nlx("zentopia"), 
+        subtitle: "Zentopia", 
+        img: 'https://i.postimg.cc/g2jTYgGg/Zentopia.webp'
+    },
+    { 
         title: 'Rei do Universo', 
         action: () => nlx("jesus"), 
         subtitle: "Jesus", 
         img: 'https://i.postimg.cc/rFpZHjSC/ohohrei.webp' 
-    },
-    { 
-        title: 'Meditação', 
-        action: () => nlx("zentopia"), 
-        subtitle: "Zentopia", 
-        img: 'https://i.postimg.cc/3RdRghr8/Zentopia.webp'
     },
     { 
         title: 'Crossover', 
