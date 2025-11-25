@@ -22,9 +22,11 @@ const playlists = {
   latina: playlist513,
   gamex: playlist514,
   jesus: playlist515,
+  zentopia: playlist516,
 };
 
 const playlistOrder = [
+  'zentopia',   // Meditação
   'jesus',   // Oh Oh Rei o Universo
   'crossover',   // Crossover
   'funk',   // Funk (MIX)
