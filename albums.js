@@ -23,6 +23,12 @@ const editors1 = [
         subtitle: 'NEFFEX', 
         action: () => nlx("neffex"), 
         img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
+    },
+    { 
+        title: 'Summer (MIX)', 
+        action: () => nlx("summer"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     }
     
 ];
@@ -57,12 +63,6 @@ const charts1 = [
         charts: 'Wallker', 
         img: 'https://i.postimg.cc/25Yrw3LF/Temporal.webp', 
         action: () => nlx("temporal") 
-    },
-    { 
-        title: 'Summer (MIX)', 
-        action: () => nlx("summer"), 
-        subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     },
     { 
         title: 'Drilland', 
