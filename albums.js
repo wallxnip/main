@@ -122,16 +122,16 @@ const releases1 = [
         img: 'https://i.postimg.cc/PqNHyC5w/Naya-Ruby.webp' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'Sonder(2023)', 
+        artist: 'Dermot Kenedy', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://i.postimg.cc/NfbFJ3vV/dm.webp' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'Clássico', 
+        artist: 'Sertanejo', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/kPg1_jc6u5hrAnhau7j60BjiCWzkFTGKpgBqWGtOQXgp6F1Vdn2DBca0T2w-O5D18fl7GyaECiNEtyEIiw=w544-h544-l90-rj' 
     },
     { 
         title: '', 
