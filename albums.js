@@ -89,13 +89,13 @@ const releases1 = [
         title: 'Pisadinha do Vaqueiro', 
         artist: 'Francildo Silva',
         action: () => nlx("francildosilva"), 
-        img: 'https://lh3.googleusercontent.com/PBw8TlYiDpAX6bYbFsfrsSo8eKIpfowL0de7VpvneSmiyp7HMLnIDdjJM9INWHWZ8jAdkaBQKb9sjSXiMw=w544-h544-l90-rj' 
+        img: 'https://i.postimg.cc/jjjgm19m/pisadinha.webp' 
     },
     { 
         title: 'Do Sunrise ao Sunset', 
         artist: 'Kiko Chicabana', 
         action: () => nlx("chicabana"), 
-        img: 'https://lh3.googleusercontent.com/ee18srcgYIr6rihbLGnxawIZgPk_A8-tKStw1uswcPqJNE_kC-eCLPHx7siSyqY4cSNxEaVGGSG12BXp=w544-h544-l90-rj' 
+        img: 'https://i.postimg.cc/C5xWN10Q/kiko.webp' 
     },
     { 
         title: 'Sky Love do Forró', 
