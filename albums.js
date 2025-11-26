@@ -164,22 +164,22 @@ const releases1 = [
         img: 'https://lh3.googleusercontent.com/3ebXstjCpEVSHwvZxNpoQtNOrfr2HQDN6EUXAsvr8uAQ0vDo_jPaw6YczuFJrzlrqgLWfZP-BAHVffnc6g=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'RBD', 
+        artist: 'Rebelde', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/8XkjKA3Yj3HSPugGO0GosbBPuPanl8N43zUnhQZXuWBV0QAAFPGoa7UvZM-MNzXtK1r8hcTf1lLyXzqq=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'RBD Edição em Português', 
+        artist: 'Rebelde', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/2FPRvFa23vXHuXi07Bfre8lIgEwool6gFc4_JZM_cGOcYDtbZQgwbnFsh4qvtrm8gXCcZ0PjvyB21CTz2g=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'A Fábrica', 
+        artist: 'Toque Dez', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/wGlM3Iy2hpWgMuj7ZrL_py3XGOAERS7nm1w1g3eyLe2hNOnVf9olYIwrkqS5qzzymouQxnXMRrgHfFhD=w544-h544-l90-rj' 
     },
 
 ];
