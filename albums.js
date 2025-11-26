@@ -113,7 +113,7 @@ const releases1 = [
         title: 'Trilha Sonora de Games', 
         artist: 'The Last Frequency', 
         action: () => nlx("gamex"), 
-        img: 'https://i.postimg.cc/9XKGHph7/Legacy.webp' 
+        img: 'https://lh3.googleusercontent.com/IQGhWCevU2O7RirrVbKjQAnMYZLq65feHqTPmakpQ0fAWLPxpwMrVF5UHi_elfZgw6g-MxpmSdLrD20=w544-h544-l90-rj' 
     },
     { 
         title: 'Ruby', 
