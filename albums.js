@@ -114,6 +114,54 @@ const releases1 = [
         artist: 'The Last Frequency', 
         action: () => nlx("gamex"), 
         img: 'https://i.postimg.cc/9XKGHph7/Legacy.webp' 
+    },
+    { 
+        title: 'Ruby', 
+        artist: 'Naya', 
+        action: () => nlx(""), 
+        img: 'https://i.postimg.cc/PqNHyC5w/Naya-Ruby.webp' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
     }
 
 ];
