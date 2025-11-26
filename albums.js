@@ -134,16 +134,16 @@ const releases1 = [
         img: 'https://lh3.googleusercontent.com/kPg1_jc6u5hrAnhau7j60BjiCWzkFTGKpgBqWGtOQXgp6F1Vdn2DBca0T2w-O5D18fl7GyaECiNEtyEIiw=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'Sofrencia', 
+        artist: 'Nadson o Ferinha', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/aeeSAXXmAxD1f_mtuz3XpfuKrYgap0VZyshUKTeIzUly_4D32Ygnx74DtGmR4-YnQgLZea9BQvYre7rBuw=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'A Boiadeira', 
+        artist: 'Ana Castela', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/2YJwuzIYHaerVjBdO0Lo94kpkg7RTtiStH21CfzxiV4zAZmEWS3nzzjXK2iotdf_spnt7pU7ofHNDgBa=w544-h544-l90-rj' 
     },
     { 
         title: '', 
