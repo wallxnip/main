@@ -7,16 +7,16 @@ document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
     { 
-        title: 'Meditação', 
-        action: () => nlx("zentopia"), 
-        subtitle: "Zentopia", 
-        img: 'https://i.postimg.cc/g2jTYgGg/Zentopia.webp'
-    },
-    { 
         title: 'As Melhores', 
         artist: 'Latina', 
         action: () => nlx("latina"), 
         img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
+    },
+    { 
+        title: 'Meditação', 
+        action: () => nlx("zentopia"), 
+        subtitle: "Zentopia", 
+        img: 'https://i.postimg.cc/g2jTYgGg/Zentopia.webp'
     },
     { 
         title: 'Rei do Universo', 
