@@ -146,10 +146,10 @@ const releases1 = [
         img: 'https://lh3.googleusercontent.com/2YJwuzIYHaerVjBdO0Lo94kpkg7RTtiStH21CfzxiV4zAZmEWS3nzzjXK2iotdf_spnt7pU7ofHNDgBa=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'NCS (2017)', 
+        artist: 'NCS Best of (2017)', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/Xyj-8hzYqJDilSZIzdVbSUVoZaqPTGhZBTO0ds-DzPK-SIOBWruwvjUZ4gioQMHcKN_V2RSgd52tYkB-=w544-h544-l90-rj' 
     },
     { 
         title: '', 
