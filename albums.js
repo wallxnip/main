@@ -152,16 +152,16 @@ const releases1 = [
         img: 'https://lh3.googleusercontent.com/Xyj-8hzYqJDilSZIzdVbSUVoZaqPTGhZBTO0ds-DzPK-SIOBWruwvjUZ4gioQMHcKN_V2RSgd52tYkB-=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'NCS (2018)', 
+        artist: 'NCS: Colors', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/PCMiQs0ibTVXcr3PYlyvLIrysg0GE0ko21qjZ1NkQ3SCZxkTtcKg61jRcg_W252g-AIo58e4mt2BzO7Q=w544-h544-l90-rj' 
     },
     { 
-        title: '', 
-        artist: '', 
+        title: 'Sing Me to Sleep', 
+        artist: 'Sleep', 
         action: () => nlx(""), 
-        img: '' 
+        img: 'https://lh3.googleusercontent.com/3ebXstjCpEVSHwvZxNpoQtNOrfr2HQDN6EUXAsvr8uAQ0vDo_jPaw6YczuFJrzlrqgLWfZP-BAHVffnc6g=w544-h544-l90-rj' 
     },
     { 
         title: '', 
