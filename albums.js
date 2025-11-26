@@ -101,7 +101,7 @@ const releases1 = [
         title: 'Sky Love do Forró', 
         artist: 'Sky Love', 
         action: () => nlx("skylove"), 
-        img: 'https://i.postimg.cc/mg4BBtLK/Sou-Love.webp' 
+        img: 'https://i.postimg.cc/DfXHdt1m/sky.webp' 
     },
     { 
         title: 'Apaixonado Sempre', 
