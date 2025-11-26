@@ -162,7 +162,25 @@ const releases1 = [
         artist: '', 
         action: () => nlx(""), 
         img: '' 
-    }
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
+    { 
+        title: '', 
+        artist: '', 
+        action: () => nlx(""), 
+        img: '' 
+    },
 
 ];
 
