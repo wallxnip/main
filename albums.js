@@ -13,6 +13,12 @@ const editors1 = [
         img: 'https://i.postimg.cc/g2jTYgGg/Zentopia.webp'
     },
     { 
+        title: 'As Melhores', 
+        artist: 'Latina', 
+        action: () => nlx("latina"), 
+        img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
+    },
+    { 
         title: 'Rei do Universo', 
         action: () => nlx("jesus"), 
         subtitle: "Jesus", 
@@ -23,12 +29,6 @@ const editors1 = [
         subtitle: 'NEFFEX', 
         action: () => nlx("neffex"), 
         img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
-    },
-    { 
-        title: 'Summer (MIX)', 
-        action: () => nlx("summer"), 
-        subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     }
     
 ];
@@ -75,6 +75,12 @@ const charts1 = [
         subtitle: 'Wallker', 
         action: () => nlx("alone"), 
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
+    },
+    { 
+        title: 'Summer (MIX)', 
+        action: () => nlx("summer"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     }
 ];
 
@@ -102,12 +108,6 @@ const releases1 = [
         artist: 'Robério e seus Teclados', 
         action: () => nlx("roberio"), 
         img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
-    },
-    { 
-        title: 'As Melhores', 
-        artist: 'Latina', 
-        action: () => nlx("latina"), 
-        img: 'https://i.postimg.cc/g0DQcZxR/Latina.webp' 
     },
     { 
         title: 'Trilha Sonora de Games', 
