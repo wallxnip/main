@@ -23,6 +23,7 @@ const playlists = {
   gamex: playlist514,
   jesus: playlist515,
   zentopia: playlist516,
+  rebelde: playlist517,
 };
 
 const playlistOrder = [
@@ -46,5 +47,6 @@ const playlistOrder = [
   'francildosilva',  // Pisadinha do Vaqueiro
   'chicabana',  // Chicabana
   'skylove',  // Sky Love do forró
-  'roberio',  // Robério e seus Teclados 
+  'roberio',  // Robério e seus Teclados
+  'rebelde',  // Robério e seus Teclados 
 ];
