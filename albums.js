@@ -172,7 +172,7 @@ const releases1 = [
     { 
         title: 'RBD Edição em Português', 
         artist: 'Rebelde', 
-        action: () => nlx(""), 
+        action: () => nlx("rebelde"), 
         img: 'https://lh3.googleusercontent.com/2FPRvFa23vXHuXi07Bfre8lIgEwool6gFc4_JZM_cGOcYDtbZQgwbnFsh4qvtrm8gXCcZ0PjvyB21CTz2g=w544-h544-l90-rj' 
     },
     { 
