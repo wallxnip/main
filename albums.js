@@ -136,8 +136,8 @@ const releases1 = [
     { 
         title: 'Sofrencia', 
         artist: 'Nadson o Ferinha', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/aeeSAXXmAxD1f_mtuz3XpfuKrYgap0VZyshUKTeIzUly_4D32Ygnx74DtGmR4-YnQgLZea9BQvYre7rBuw=w544-h544-l90-rj' 
+        action: () => nlx("nadson"), 
+        img: 'https://i.postimg.cc/tJf0tDKW/Nadson.webp' 
     },
     { 
         title: 'A Boiadeira', 
