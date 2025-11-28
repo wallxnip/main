@@ -24,6 +24,7 @@ const playlists = {
   jesus: playlist515,
   zentopia: playlist516,
   rebelde: playlist517,
+  nadson: playlist518,
 };
 
 const playlistOrder = [
@@ -48,5 +49,6 @@ const playlistOrder = [
   'chicabana',  // Chicabana
   'skylove',  // Sky Love do forró
   'roberio',  // Robério e seus Teclados
-  'rebelde',  // Robério e seus Teclados 
+  'rebelde',  // Rebelde 
+  'nadson',  // Nadson O Ferinha
 ];
