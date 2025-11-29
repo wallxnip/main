@@ -27,6 +27,7 @@ const playlists = {
   nadson: playlist518,
   dermotkennedy: playlist519,
   naya: playlist520,
+  sertanejo: playlist521,
 };
 
 const playlistOrder = [
@@ -55,4 +56,5 @@ const playlistOrder = [
   'nadson',  // Nadson O Ferinha
   'dermotkennedy',  // Dermot Kennedy
   'naya',  // Naya Ruby
+  'sertanejo',  // Clássico do Sertanejo
 ];
