@@ -124,7 +124,7 @@ const releases1 = [
     { 
         title: 'Sonder(2023)', 
         artist: 'Dermot Kenedy', 
-        action: () => nlx(""), 
+        action: () => nlx("dermotkennedy"), 
         img: 'https://i.postimg.cc/NfbFJ3vV/dm.webp' 
     },
     { 
