@@ -25,6 +25,7 @@ const playlists = {
   zentopia: playlist516,
   rebelde: playlist517,
   nadson: playlist518,
+  dermotkennedy: playlist519,
 };
 
 const playlistOrder = [
@@ -51,4 +52,5 @@ const playlistOrder = [
   'roberio',  // Robério e seus Teclados
   'rebelde',  // Rebelde 
   'nadson',  // Nadson O Ferinha
+  'dermotkennedy',  // Dermot Kennedy
 ];
