@@ -26,6 +26,7 @@ const playlists = {
   rebelde: playlist517,
   nadson: playlist518,
   dermotkennedy: playlist519,
+  naya: playlist520,
 };
 
 const playlistOrder = [
@@ -53,4 +54,5 @@ const playlistOrder = [
   'rebelde',  // Rebelde 
   'nadson',  // Nadson O Ferinha
   'dermotkennedy',  // Dermot Kennedy
+  'naya',  // Naya Ruby
 ];
