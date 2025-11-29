@@ -2,7 +2,7 @@
 // Dados para página 1 (ações padronizadas como funções)
 // ===============================
 document.getElementById("playlists").innerText = "Playlists";
-document.getElementById("recente").innerText = "Reproduzidas Recentemente";
+document.getElementById("recente").innerText = "Coleção (Wallker)";
 document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
@@ -136,7 +136,7 @@ const releases1 = [
     { 
         title: 'Ruby', 
         artist: 'Naya', 
-        action: () => nlx(""), 
+        action: () => nlx("naya"), 
         img: 'https://i.postimg.cc/PqNHyC5w/Naya-Ruby.webp' 
     },
     { 
