@@ -85,6 +85,18 @@ const charts1 = [
 ];
 
 const releases1 = [
+   { 
+        title: 'Trilha Sonora de Games', 
+        artist: 'The Last Frequency', 
+        action: () => nlx("gamex"), 
+        img: 'https://lh3.googleusercontent.com/IQGhWCevU2O7RirrVbKjQAnMYZLq65feHqTPmakpQ0fAWLPxpwMrVF5UHi_elfZgw6g-MxpmSdLrD20=w544-h544-l90-rj' 
+    },
+    { 
+        title: 'Sonder(2023)', 
+        artist: 'Dermot Kenedy', 
+        action: () => nlx("dermotkennedy"), 
+        img: 'https://i.postimg.cc/NfbFJ3vV/dm.webp' 
+    },
     { 
         title: 'Pisadinha do Vaqueiro', 
         artist: 'Francildo Silva',
@@ -110,10 +122,16 @@ const releases1 = [
         img: 'https://i.postimg.cc/J0RWNFsF/Roberio.webp' 
     },
     { 
-        title: 'Trilha Sonora de Games', 
-        artist: 'The Last Frequency', 
-        action: () => nlx("gamex"), 
-        img: 'https://lh3.googleusercontent.com/IQGhWCevU2O7RirrVbKjQAnMYZLq65feHqTPmakpQ0fAWLPxpwMrVF5UHi_elfZgw6g-MxpmSdLrD20=w544-h544-l90-rj' 
+        title: 'Sofrencia', 
+        artist: 'Nadson o Ferinha', 
+        action: () => nlx("nadson"), 
+        img: 'https://i.postimg.cc/tJf0tDKW/Nadson.webp' 
+    },
+    { 
+        title: 'RBD Edição em Português', 
+        artist: 'Rebelde', 
+        action: () => nlx("rebelde"), 
+        img: 'https://lh3.googleusercontent.com/2FPRvFa23vXHuXi07Bfre8lIgEwool6gFc4_JZM_cGOcYDtbZQgwbnFsh4qvtrm8gXCcZ0PjvyB21CTz2g=w544-h544-l90-rj' 
     },
     { 
         title: 'Ruby', 
@@ -122,22 +140,10 @@ const releases1 = [
         img: 'https://i.postimg.cc/PqNHyC5w/Naya-Ruby.webp' 
     },
     { 
-        title: 'Sonder(2023)', 
-        artist: 'Dermot Kenedy', 
-        action: () => nlx("dermotkennedy"), 
-        img: 'https://i.postimg.cc/NfbFJ3vV/dm.webp' 
-    },
-    { 
         title: 'Clássico', 
         artist: 'Sertanejo', 
         action: () => nlx(""), 
         img: 'https://lh3.googleusercontent.com/kPg1_jc6u5hrAnhau7j60BjiCWzkFTGKpgBqWGtOQXgp6F1Vdn2DBca0T2w-O5D18fl7GyaECiNEtyEIiw=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'Sofrencia', 
-        artist: 'Nadson o Ferinha', 
-        action: () => nlx("nadson"), 
-        img: 'https://i.postimg.cc/tJf0tDKW/Nadson.webp' 
     },
     { 
         title: 'A Boiadeira', 
@@ -168,12 +174,6 @@ const releases1 = [
         artist: 'Rebelde', 
         action: () => nlx(""), 
         img: 'https://lh3.googleusercontent.com/8XkjKA3Yj3HSPugGO0GosbBPuPanl8N43zUnhQZXuWBV0QAAFPGoa7UvZM-MNzXtK1r8hcTf1lLyXzqq=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'RBD Edição em Português', 
-        artist: 'Rebelde', 
-        action: () => nlx("rebelde"), 
-        img: 'https://lh3.googleusercontent.com/2FPRvFa23vXHuXi07Bfre8lIgEwool6gFc4_JZM_cGOcYDtbZQgwbnFsh4qvtrm8gXCcZ0PjvyB21CTz2g=w544-h544-l90-rj' 
     },
     { 
         title: 'A Fábrica', 
