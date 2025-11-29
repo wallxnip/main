@@ -128,10 +128,10 @@ const releases1 = [
         img: 'https://i.postimg.cc/tJf0tDKW/Nadson.webp' 
     },
     { 
-        title: 'RBD Edição em Português', 
+        title: 'RBD', 
         artist: 'Rebelde', 
         action: () => nlx("rebelde"), 
-        img: 'https://lh3.googleusercontent.com/2FPRvFa23vXHuXi07Bfre8lIgEwool6gFc4_JZM_cGOcYDtbZQgwbnFsh4qvtrm8gXCcZ0PjvyB21CTz2g=w544-h544-l90-rj' 
+        img: 'https://i.postimg.cc/qMr4pZvx/RBD.webp' 
     },
     { 
         title: 'Ruby', 
