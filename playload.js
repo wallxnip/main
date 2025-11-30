@@ -28,6 +28,7 @@ const playlists = {
   dermotkennedy: playlist519,
   naya: playlist520,
   sertanejo: playlist521,
+  luka: playlist522,
 };
 
 const playlistOrder = [
@@ -57,4 +58,5 @@ const playlistOrder = [
   'dermotkennedy',  // Dermot Kennedy
   'naya',  // Naya Ruby
   'sertanejo',  // Clássico do Sertanejo
+  'luka',  // Luka Sem Resposta
 ];
