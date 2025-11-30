@@ -146,6 +146,12 @@ const releases1 = [
         img: 'https://lh3.googleusercontent.com/kPg1_jc6u5hrAnhau7j60BjiCWzkFTGKpgBqWGtOQXgp6F1Vdn2DBca0T2w-O5D18fl7GyaECiNEtyEIiw=w544-h544-l90-rj' 
     },
     { 
+        title: 'Sem Resposta', 
+        artist: 'Luka', 
+        action: () => nlx("luka"), 
+        img: 'https://i.postimg.cc/HkSNLMK2/luka.webp' 
+    },
+    { 
         title: 'A Boiadeira', 
         artist: 'Ana Castela', 
         action: () => nlx(""), 
@@ -168,12 +174,6 @@ const releases1 = [
         artist: 'Sleep', 
         action: () => nlx(""), 
         img: 'https://lh3.googleusercontent.com/3ebXstjCpEVSHwvZxNpoQtNOrfr2HQDN6EUXAsvr8uAQ0vDo_jPaw6YczuFJrzlrqgLWfZP-BAHVffnc6g=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'RBD', 
-        artist: 'Rebelde', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/8XkjKA3Yj3HSPugGO0GosbBPuPanl8N43zUnhQZXuWBV0QAAFPGoa7UvZM-MNzXtK1r8hcTf1lLyXzqq=w544-h544-l90-rj' 
     },
     { 
         title: 'A Fábrica', 
