@@ -155,7 +155,7 @@ const releases1 = [
         title: 'FlashBack', 
         artist: 'Anos 90', 
         action: () => nlx("flashback"), 
-        img: 'https://i.postimg.cc/hPZPq5JM/flashback.webp' 
+        img: 'https://i.postimg.cc/wMrWHmSy/flashback.webp' 
     },
     { 
         title: 'A Boiadeira', 
