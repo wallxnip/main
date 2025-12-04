@@ -152,6 +152,12 @@ const releases1 = [
         img: 'https://i.postimg.cc/HkSNLMK2/luka.webp' 
     },
     { 
+        title: 'FlashBack', 
+        artist: 'Anos 90', 
+        action: () => nlx("flashback"), 
+        img: 'https://i.postimg.cc/hPZPq5JM/flashback.webp' 
+    },
+    { 
         title: 'A Boiadeira', 
         artist: 'Ana Castela', 
         action: () => nlx(""), 
