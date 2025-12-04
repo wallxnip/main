@@ -29,6 +29,7 @@ const playlists = {
   naya: playlist520,
   sertanejo: playlist521,
   luka: playlist522,
+  flashback: playlist523,
 };
 
 const playlistOrder = [
@@ -59,4 +60,5 @@ const playlistOrder = [
   'naya',  // Naya Ruby
   'sertanejo',  // Clássico do Sertanejo
   'luka',  // Luka Sem Resposta
+  'flashback',  // Flash Back
 ];
