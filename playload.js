@@ -31,7 +31,7 @@ const playlists = {
   luka: playlist522,
   flashback: playlist523,
   gabysaiury: playlist524,
-  gabysaiury: playlist524,
+  grego: playlist525,
 };
 
 const playlistOrder = [
@@ -62,6 +62,7 @@ const playlistOrder = [
   'naya',  // Naya Ruby
   'sertanejo',  // Clássico do Sertanejo
   'gabysaiury',  // Gaby Saiury
+  'grego',  // Gaby Saiury
   'luka',  // Luka Sem Resposta
   'flashback',  // Flash Back
 ];
