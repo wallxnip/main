@@ -8,7 +8,7 @@ document.getElementById("pravoce").innerText = "Para você";
 const editors1 = [
 
     { 
-        title: 'Love', 
+        title: 'Love Funk', 
         artist: 'Gaby Saiury', 
         action: () => nlx("gabysaiury"), 
         img: 'https://i.postimg.cc/jdJhgtcp/gaby.webp' 
