@@ -11,7 +11,7 @@ const editors1 = [
         title: 'O Agro Venceu', 
         artist: 'Gaby Saiury', 
         action: () => nlx("gabysaiury"), 
-        img: 'https://i.postimg.cc/4NcP3sDc/gaby.webp' 
+        img: 'https://i.postimg.cc/L4GXTpnt/gaby.webp' 
     },
     { 
         title: 'As Melhores', 
