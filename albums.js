@@ -8,12 +8,6 @@ document.getElementById("pravoce").innerText = "Para você";
 const editors1 = [
 
     { 
-        title: 'Love Funk', 
-        artist: 'Gaby Saiury', 
-        action: () => nlx("gabysaiury"), 
-        img: 'https://i.postimg.cc/L50g2YTZ/gaby.webp' 
-    },
-    { 
         title: 'As Melhores', 
         artist: 'Latina', 
         action: () => nlx("latina"), 
@@ -165,36 +159,11 @@ const releases1 = [
         img: 'https://i.postimg.cc/wMrWHmSy/flashback.webp' 
     },
     { 
-        title: 'A Boiadeira', 
-        artist: 'Ana Castela', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/2YJwuzIYHaerVjBdO0Lo94kpkg7RTtiStH21CfzxiV4zAZmEWS3nzzjXK2iotdf_spnt7pU7ofHNDgBa=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'NCS (2017)', 
-        artist: 'NCS Best of (2017)', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/Xyj-8hzYqJDilSZIzdVbSUVoZaqPTGhZBTO0ds-DzPK-SIOBWruwvjUZ4gioQMHcKN_V2RSgd52tYkB-=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'NCS (2018)', 
-        artist: 'NCS: Colors', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/PCMiQs0ibTVXcr3PYlyvLIrysg0GE0ko21qjZ1NkQ3SCZxkTtcKg61jRcg_W252g-AIo58e4mt2BzO7Q=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'Sing Me to Sleep', 
-        artist: 'Sleep', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/3ebXstjCpEVSHwvZxNpoQtNOrfr2HQDN6EUXAsvr8uAQ0vDo_jPaw6YczuFJrzlrqgLWfZP-BAHVffnc6g=w544-h544-l90-rj' 
-    },
-    { 
-        title: 'A Fábrica', 
-        artist: 'Toque Dez', 
-        action: () => nlx(""), 
-        img: 'https://lh3.googleusercontent.com/wGlM3Iy2hpWgMuj7ZrL_py3XGOAERS7nm1w1g3eyLe2hNOnVf9olYIwrkqS5qzzymouQxnXMRrgHfFhD=w544-h544-l90-rj' 
-    },
-
+        title: 'Love Funk', 
+        artist: 'Gaby Saiury', 
+        action: () => nlx("gabysaiury"), 
+        img: 'https://i.postimg.cc/L50g2YTZ/gaby.webp' 
+    }
 ];
 
 
