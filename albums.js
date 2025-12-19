@@ -8,10 +8,10 @@ document.getElementById("pravoce").innerText = "Para você";
 const editors1 = [
 
     { 
-        title: 'O Agro Venceu', 
+        title: 'Love', 
         artist: 'Gaby Saiury', 
         action: () => nlx("gabysaiury"), 
-        img: 'https://i.postimg.cc/L4GXTpnt/gaby.webp' 
+        img: 'https://i.postimg.cc/jdJhgtcp/gaby.webp' 
     },
     { 
         title: 'As Melhores', 
