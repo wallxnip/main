@@ -11,7 +11,7 @@ const editors1 = [
         title: 'Love Funk', 
         artist: 'Gaby Saiury', 
         action: () => nlx("gabysaiury"), 
-        img: 'https://i.postimg.cc/jdJhgtcp/gaby.webp' 
+        img: 'https://i.postimg.cc/L50g2YTZ/gaby.webp' 
     },
     { 
         title: 'As Melhores', 
