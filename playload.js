@@ -31,6 +31,7 @@ const playlists = {
   luka: playlist522,
   flashback: playlist523,
   gabysaiury: playlist524,
+  gabysaiury: playlist524,
 };
 
 const playlistOrder = [
