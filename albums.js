@@ -6,6 +6,13 @@ document.getElementById("recente").innerText = "Coleção (Wallker)";
 document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
+
+    { 
+        title: 'O Agro Venceu', 
+        artist: 'Gaby Saiury', 
+        action: () => nlx("gabysaiury"), 
+        img: 'https://lh3.googleusercontent.com/_Z7aQwisPt6bJ1sviCd7K5bPSmaF0_DYEs_-qc4VY32n3byiUVNlX8SeZz9JJP6R_g2nOshdGjpyHubWwg=w544-h544-l90-rj' 
+    },
     { 
         title: 'As Melhores', 
         artist: 'Latina', 
