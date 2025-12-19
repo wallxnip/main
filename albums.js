@@ -6,7 +6,12 @@ document.getElementById("recente").innerText = "Coleção (Wallker)";
 document.getElementById("pravoce").innerText = "Para você";
 
 const editors1 = [
-
+    { 
+        title: 'FlashBack', 
+        artist: 'Anos 90', 
+        action: () => nlx("flashback"), 
+        img: 'https://i.postimg.cc/KvX8g3cg/Flash-Back.webp' 
+    },
     { 
         title: 'As Melhores', 
         artist: 'Latina', 
@@ -151,12 +156,6 @@ const releases1 = [
         artist: 'Luka', 
         action: () => nlx("luka"), 
         img: 'https://i.postimg.cc/HkSNLMK2/luka.webp' 
-    },
-    { 
-        title: 'FlashBack', 
-        artist: 'Anos 90', 
-        action: () => nlx("flashback"), 
-        img: 'https://i.postimg.cc/wMrWHmSy/flashback.webp' 
     },
     { 
         title: 'Love Funk', 
