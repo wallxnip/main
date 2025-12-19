@@ -163,6 +163,12 @@ const releases1 = [
         artist: 'Gaby Saiury', 
         action: () => nlx("gabysaiury"), 
         img: 'https://i.postimg.cc/L50g2YTZ/gaby.webp' 
+    },
+    { 
+        title: 'Piseiro', 
+        artist: 'Grego do Piseiro', 
+        action: () => nlx("piseiro"), 
+        img: 'https://i.postimg.cc/wMrWHmSy/flashback.webp' 
     }
 ];
 
