@@ -168,7 +168,7 @@ const releases1 = [
         title: 'Piseiro', 
         artist: 'Grego do Piseiro', 
         action: () => nlx("grego"), 
-        img: 'https://i.postimg.cc/wMrWHmSy/flashback.webp' 
+        img: 'https://i.postimg.cc/Qt2BY9Xs/grego.webp' 
     }
 ];
 
