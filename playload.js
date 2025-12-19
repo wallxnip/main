@@ -62,7 +62,7 @@ const playlistOrder = [
   'naya',  // Naya Ruby
   'sertanejo',  // Clássico do Sertanejo
   'gabysaiury',  // Gaby Saiury
-  'grego',  // Gaby Saiury
+  'grego',  // Grego do Piseiro
   'luka',  // Luka Sem Resposta
   'flashback',  // Flash Back
 ];
