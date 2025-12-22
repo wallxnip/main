@@ -164,6 +164,12 @@ const releases1 = [
         img: 'https://i.postimg.cc/L50g2YTZ/gaby.webp' 
     },
     { 
+        title: 'Banda KLB', 
+        artist: 'KLB', 
+        action: () => nlx("klb"), 
+        img: 'https://i.postimg.cc/VkDm8zCb/klb.webp' 
+    },
+    { 
         title: 'Piseiro', 
         artist: 'Grego do Piseiro', 
         action: () => nlx("grego"), 
