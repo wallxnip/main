@@ -33,6 +33,7 @@ const playlists = {
   gabysaiury: playlist524,
   grego: playlist525,
   klb: playlist526,
+  ihoranes: playlist527,
 };
 
 const playlistOrder = [
@@ -66,5 +67,6 @@ const playlistOrder = [
   'grego',  // Grego do Piseiro
   'luka',  // Luka Sem Resposta
   'klb',  // Banda KLB Anos (2000)
+  'ihoranes',  // Banda KLB Anos (2000)
   'flashback',  // Flash Back
 ];
