@@ -173,7 +173,7 @@ const releases1 = [
         title: 'Forró do Imperador', 
         artist: 'Ihoranes', 
         action: () => nlx("ihoranes"), 
-        img: 'https://lh3.googleusercontent.com/498VBdmj-cCuJwMnFun0oA7H0WxoSFINBaolggp9xP-1wZSfBdqLISAPG-m36mP-uFk-fle3dPp55mU=w544-h544-l90-rj' 
+        img: 'https://i.postimg.cc/cLrbL0p8/ihoranes.webp' 
     },
     { 
         title: 'Piseiro', 
