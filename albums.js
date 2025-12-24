@@ -1,9 +1,9 @@
 // ===============================
 // Dados para página 1 (ações padronizadas como funções)
 // ===============================
-document.getElementById("playlists").innerText = "Playlists";
-document.getElementById("recente").innerText = "Coleção (Wallker)";
-document.getElementById("pravoce").innerText = "Para você";
+document.getElementById("playlists").innerText = "Mais tocadas";
+document.getElementById("recente").innerText = "Em tópico";
+document.getElementById("pravoce").innerText = "Lançamentos";
 
 const editors1 = [
     { 
