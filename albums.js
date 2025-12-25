@@ -180,6 +180,12 @@ const releases1 = [
         artist: 'Grego do Piseiro', 
         action: () => nlx("grego"), 
         img: 'https://i.postimg.cc/CLcV7yMp/grego.webp' 
+    },
+    { 
+        title: 'A Fabrica', 
+        artist: 'Toque Dez', 
+        action: () => nlx("grego"), 
+        img: 'https://i.postimg.cc/CLcV7yMp/grego.webp' 
     }
 ];
 
