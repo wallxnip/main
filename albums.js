@@ -184,7 +184,7 @@ const releases1 = [
     { 
         title: 'A Fabrica', 
         artist: 'Toque Dez', 
-        action: () => nlx("grego"), 
+        action: () => nlx("toquedez"), 
         img: 'https://lh3.googleusercontent.com/uB6kJXXz7dcbVcqh-JgLUuAaeIiFOEkTIwsOL-m7hOil2vF80sGVQtOydGG6TTeHvsb0TfVjj0Je2s8C=w544-h544-l90-rj' 
     }
 ];
