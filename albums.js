@@ -191,7 +191,7 @@ const releases1 = [
         title: 'Bebinho', 
         artist: 'Cintura de Mola', 
         action: () => nlx("cinturademola"), 
-        img: 'https://lh3.googleusercontent.com/uB6kJXXz7dcbVcqh-JgLUuAaeIiFOEkTIwsOL-m7hOil2vF80sGVQtOydGG6TTeHvsb0TfVjj0Je2s8C=w544-h544-l90-rj' 
+        img: 'https://lh3.googleusercontent.com/7UDZtu3gz2KuD0B27MZr7pzdlIl5xRjKRYeUx5YiVS-Gr7UoKPqDS7fYdPhPfvKclwS9zBwCawyW6f_V=w544-h544-l90-rj' 
     }
 ];
 
