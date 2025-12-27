@@ -35,7 +35,7 @@ const playlists = {
   klb: playlist526,
   ihoranes: playlist527,
   toquedez: playlist528,
-  cinturademola: playlist528,
+  cinturademola: playlist529,
 };
 
 const playlistOrder = [
