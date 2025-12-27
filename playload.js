@@ -35,6 +35,7 @@ const playlists = {
   klb: playlist526,
   ihoranes: playlist527,
   toquedez: playlist528,
+  cinturademola: playlist528,
 };
 
 const playlistOrder = [
@@ -70,5 +71,6 @@ const playlistOrder = [
   'klb',  // Banda KLB Anos (2000)
   'ihoranes',  // Banda KLB Anos (2000)
   'toquedez',  // Toque Dez a Fábrica
+  'cinturademola',  // Cintura de Mola
   'flashback',  // Flash Back
 ];
