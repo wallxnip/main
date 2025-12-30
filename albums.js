@@ -13,6 +13,12 @@ const editors1 = [
         img: 'https://i.postimg.cc/KvX8g3cg/Flash-Back.webp' 
     },
     { 
+        title: 'Wallker', 
+        action: () => nlx("wkxd"), 
+        subtitle: "Wall-XD", 
+        img: 'https://i.postimg.cc/FzkcCbw6/Wk.webp'
+    },
+    { 
         title: 'As Melhores', 
         artist: 'Latina', 
         action: () => nlx("latina"), 
