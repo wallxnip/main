@@ -16,7 +16,13 @@ const editors1 = [
         title: 'Wallker', 
         action: () => nlx("wkxd"), 
         subtitle: "Wall-XD", 
-        img: 'https://i.postimg.cc/FzkcCbw6/Wk.webp'
+        img: 'https://i.postimg.cc/50DdM1k0/wallxnyp.webp'
+    },
+    { 
+        title: 'Rei do Universo', 
+        action: () => nlx("jesus"), 
+        subtitle: "Jesus", 
+        img: 'https://i.postimg.cc/FFdLycDz/js.webp' 
     },
     { 
         title: 'As Melhores', 
@@ -29,12 +35,6 @@ const editors1 = [
         action: () => nlx("zentopia"), 
         subtitle: "Zentopia", 
         img: 'https://i.postimg.cc/g2jTYgGg/Zentopia.webp'
-    },
-    { 
-        title: 'Rei do Universo', 
-        action: () => nlx("jesus"), 
-        subtitle: "Jesus", 
-        img: 'https://i.postimg.cc/FFdLycDz/js.webp' 
     },
     { 
         title: 'Bestiny', 
