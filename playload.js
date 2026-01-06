@@ -37,6 +37,7 @@ const playlists = {
   toquedez: playlist528,
   cinturademola: playlist529,
   wkxd: playlist530,
+  wallker: playlist531,
 };
 
 const playlistOrder = [
@@ -75,4 +76,5 @@ const playlistOrder = [
   'cinturademola',  // Cintura de Mola
   'flashback',  // Flash Back
   'wkxd',  // Wallker
+  'wallker',  // Wallker
 ];
