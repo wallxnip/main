@@ -47,6 +47,12 @@ const editors1 = [
 
 const charts1 = [
     { 
+        title: 'As Melhores', 
+        action: () => nlx("wallker"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/C1MmmJLK/Wallker.webp' 
+    },
+    { 
         title: 'Crossover', 
         action: () => nlx("crossover"), 
         subtitle: "Wallker", 
