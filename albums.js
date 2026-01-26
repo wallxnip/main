@@ -84,7 +84,7 @@ const charts1 = [
     },
     { 
         title: 'Drilland', 
-        action: () => nlx("drilland"), 
+        action: () => { nlx("drilland"); b(1); },
         subtitle: "Wallker", 
         img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
