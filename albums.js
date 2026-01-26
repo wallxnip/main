@@ -10,7 +10,7 @@ const editors1 = [
         title: 'FlashBack', 
         artist: 'Anos 90', 
         img: 'https://i.postimg.cc/KvX8g3cg/Flash-Back.webp',
-        action: () => { nlx("flashback"); b(1);
+        action: () => { nlx("flashback"); b(1); },
     },
     { 
         title: 'Wallker', 
