@@ -9,7 +9,7 @@ const editors1 = [
     { 
         title: 'FlashBack', 
         artist: 'Anos 90', 
-        action: () => nlx("flashback"), 
+        action: () => { nlx("flashback"); b(1);,
         img: 'https://i.postimg.cc/KvX8g3cg/Flash-Back.webp' 
     },
     { 
