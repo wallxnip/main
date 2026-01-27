@@ -96,7 +96,7 @@ const charts1 = [
     },
     { 
         title: 'Summer (MIX)', 
-        action: () => nlx("summer"), 
+        action: () => { nlx("summer"); b(2); },
         subtitle: "Wallker", 
         img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     }
