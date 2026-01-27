@@ -62,13 +62,13 @@ const charts1 = [
         title: 'Top Rock (Clássic)', 
         charts: "Wallker", 
         img: 'https://i.postimg.cc/nchyMbnj/TheRock.webp', 
-        action: () => nlx("therock") 
+        action: () => { nlx("therock"); b(6); },
     },
     { 
         title: 'Funk (MIX)', 
         charts: "Wallker", 
         img: 'https://i.postimg.cc/GtKpnrVx/funk.webp', 
-        action: () => nlx("funk") 
+        action: () => { nlx("funk"); b(7); },
     },
     { 
         title: 'Hip-Hop', 
