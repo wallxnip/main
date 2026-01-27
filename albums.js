@@ -74,7 +74,7 @@ const charts1 = [
         title: 'Hip-Hop', 
         charts: "Wallker", 
         img: 'https://i.postimg.cc/s2XSNZy8/Hip-Hop.webp', 
-        action: () => nlx("hiphop") 
+        action: () => { nlx("hiphop"); b(5); },
     },
     { 
         title: "Temporal", 
