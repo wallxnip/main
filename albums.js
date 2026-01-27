@@ -80,7 +80,7 @@ const charts1 = [
         title: "Temporal", 
         charts: 'Wallker', 
         img: 'https://i.postimg.cc/25Yrw3LF/Temporal.webp', 
-        action: () => nlx("temporal") 
+        action: () => { nlx("temporal"); b(4); },
     },
     { 
         title: 'Drilland', 
