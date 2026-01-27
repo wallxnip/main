@@ -54,7 +54,7 @@ const charts1 = [
     },
     { 
         title: 'Crossover', 
-        action: () => nlx("crossover"), 
+        action: () => { nlx("crossover"); b(8); },
         subtitle: "Wallker", 
         img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
     },
