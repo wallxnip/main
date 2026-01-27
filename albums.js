@@ -91,7 +91,7 @@ const charts1 = [
     { 
         title: "EDM", 
         subtitle: 'Wallker', 
-        action: () => nlx("alone"), 
+        action: () => { nlx("alone"); b(3); },
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     },
     { 
