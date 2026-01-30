@@ -7,6 +7,12 @@ document.getElementById("pravoce").innerText = "Lançamentos";
 
 const editors1 = [
     { 
+        title: 'Favoritas', 
+        artist: 'Sua Música', 
+        img: 'raw/tymusic/drawble/playground.webp',
+        action: () => { nlx("favoritas"); b(10); },
+    },
+    { 
         title: 'FlashBack', 
         artist: 'Anos 90', 
         img: 'https://i.postimg.cc/KvX8g3cg/Flash-Back.webp',
