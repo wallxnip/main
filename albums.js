@@ -9,7 +9,7 @@ const editors1 = [
     { 
         title: 'Favoritas', 
         artist: 'Sua Música', 
-        img: 'raw/tymusic/drawble/playground.webp',
+        img: 'https://i.postimg.cc/Hs1wqYM9/playground.webp',
         action: () => { nlx("favoritas"); b(10); },
     },
     { 
