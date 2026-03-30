@@ -8,8 +8,8 @@ document.getElementById("pravoce").innerText = "Lançamentos";
 const editors1 = [
     { 
         title: 'Favoritas', 
-        artist: 'Sua Música', 
-        img: 'https://i.postimg.cc/Hs1wqYM9/playground.webp',
+        artist: 'Suas Música', 
+        img: 'https://i.postimg.cc/d07gNm2G/fvr.webp',
         action: () => { nlx("favoritas"); b(10); },
     },
     { 
