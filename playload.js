@@ -38,6 +38,7 @@ const playlists = {
   cinturademola: playlist529,
   wkxd: playlist530,
   wallker: playlist531,
+  funkbr: playlist532,
 };
 
 const playlistOrder = [
