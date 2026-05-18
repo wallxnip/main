@@ -218,7 +218,6 @@ const releases1 = [
         img: 'https://i.postimg.cc/05dqmswD/Cara-Bacana.webp' 
     }
 ];
-];
 
 
 // ===============================
