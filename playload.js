@@ -78,4 +78,5 @@ const playlistOrder = [
   'flashback',  // Flash Back
   'wkxd',  // Wallker
   'wallker',  // Wallker
+  'funkbr',  // Funk Brasil
 ];
