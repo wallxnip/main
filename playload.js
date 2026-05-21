@@ -80,4 +80,5 @@ const playlistOrder = [
   'wkxd',  // Wallker
   'wallker',  // Wallker
   'funkbr',  // Funk Brasil
+  'velhostempos',  // Velhos Tempos
 ];
