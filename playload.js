@@ -39,6 +39,7 @@ const playlists = {
   wkxd: playlist530,
   wallker: playlist531,
   funkbr: playlist532,
+  velhostempos: playlist533,
 };
 
 const playlistOrder = [
