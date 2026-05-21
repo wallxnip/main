@@ -216,6 +216,12 @@ const releases1 = [
         artist: 'Funk Destaque', 
         action: () => nlx("funkbr"), 
         img: 'https://i.postimg.cc/05dqmswD/Cara-Bacana.webp' 
+    },
+    { 
+        title: 'Velhos Tempos', 
+        artist: 'As melhores', 
+        action: () => nlx("velhostempos"), 
+        img: 'https://i.postimg.cc/vZQLL85f/Velhos-Tempos.webp' 
     }
 ];
 
