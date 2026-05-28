@@ -59,12 +59,6 @@ const charts1 = [
         img: 'https://i.postimg.cc/858dJgsW/Wallker.webp' 
     },
     { 
-        title: 'As Melhores', 
-        action: () => { nlx("wallker"); b(9); },
-        subtitle: "Wallker", 
-        img: 'https://i.postimg.cc/C1MmmJLK/Wallker.webp' 
-    },
-    { 
         title: 'Crossover', 
         action: () => { nlx("crossover"); b(8); },
         subtitle: "Wallker", 
@@ -111,7 +105,14 @@ const charts1 = [
         action: () => { nlx("summer"); b(2); },
         subtitle: "Wallker", 
         img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
+    },
+    { 
+        title: 'As Melhores', 
+        action: () => { nlx("wallker"); b(9); },
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/C1MmmJLK/Wallker.webp' 
     }
+
 ];
 
 const releases1 = [
