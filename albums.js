@@ -53,6 +53,12 @@ const editors1 = [
 
 const charts1 = [
     { 
+        title: 'Wallker', 
+        artist: 'Remixes', 
+        action: () => nlx("wkremix"), 
+        img: 'https://i.postimg.cc/858dJgsW/Wallker.webp' 
+    },
+    { 
         title: 'As Melhores', 
         action: () => { nlx("wallker"); b(9); },
         subtitle: "Wallker", 
@@ -222,13 +228,8 @@ const releases1 = [
         artist: 'As melhores', 
         action: () => nlx("velhostempos"), 
         img: 'https://i.postimg.cc/vZQLL85f/Velhos-Tempos.webp' 
-    },
-    { 
-        title: 'Wallker', 
-        artist: 'Remixes', 
-        action: () => nlx("wkremix"), 
-        img: 'https://i.postimg.cc/vZQLL85f/Velhos-Tempos.webp' 
     }
+   
 ];
 
 
