@@ -53,15 +53,21 @@ const editors1 = [
 
 const charts1 = [
     { 
-        title: 'Wallker', 
-        artist: 'Remixes', 
+        title: 'Coleção Especial', 
+        charts: 'Wallker', 
+        action: () => nlx("wkplay"), 
+        img: 'https://i.postimg.cc/3rsGQQ0h/Walllker.webp' 
+    },
+    { 
+        title: 'Remixes', 
+        charts: 'Wallker', 
         action: () => nlx("wkremix"), 
         img: 'https://i.postimg.cc/858dJgsW/Wallker.webp' 
     },
     { 
         title: 'Crossover', 
         action: () => { nlx("crossover"); b(8); },
-        subtitle: "Wallker", 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/cCtYCdnK/wK.webp' 
     },
     { 
@@ -91,25 +97,25 @@ const charts1 = [
     { 
         title: 'Drilland', 
         action: () => { nlx("drilland"); b(1); },
-        subtitle: "Wallker", 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/85J3d5YQ/Drilland.webp' 
     },
     { 
         title: "EDM", 
-        subtitle: 'Wallker', 
+        charts: 'Wallker', 
         action: () => { nlx("alone"); b(3); },
         img: 'https://i.postimg.cc/nr78vkLG/Alone.webp' 
     },
     { 
         title: 'Summer (MIX)', 
         action: () => { nlx("summer"); b(2); },
-        subtitle: "Wallker", 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/J44t5H8J/Summer.webp' 
     },
     { 
         title: 'As Melhores', 
         action: () => { nlx("wallker"); b(9); },
-        subtitle: "Wallker", 
+        charts: "Wallker", 
         img: 'https://i.postimg.cc/C1MmmJLK/Wallker.webp' 
     }
 
