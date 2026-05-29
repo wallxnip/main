@@ -41,6 +41,7 @@ const playlists = {
   funkbr: playlist532,
   velhostempos: playlist533,
   wkremix: playlist534,
+  wkplay: playlist535,
 };
 
 const playlistOrder = [
@@ -83,4 +84,5 @@ const playlistOrder = [
   'funkbr',  // Funk Brasil
   'velhostempos',  // Velhos Tempos
   'wkremix',  // Wallker (REMIX)
+  'wkplay',  // Coleção Especial
 ];
