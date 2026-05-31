@@ -53,10 +53,10 @@ const editors1 = [
 
 const charts1 = [
   { 
-        title: 'Anos 2000', 
+        title: 'Ritmo Quente', 
         charts: 'Wallker', 
         action: () => nlx("wk+"), 
-        img: 'https://i.postimg.cc/L56rMrvD/2000.webp' 
+        img: 'https://i.postimg.cc/tC9m8QYH/2000.webp' 
     },
     { 
         title: 'Coleção Especial', 
