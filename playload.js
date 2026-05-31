@@ -40,7 +40,7 @@ const playlists = {
   wallker: playlist531,
   funkbr: playlist532,
   velhostempos: playlist533,
-  lights&beats: playlist534,
+  lightsbeats: playlist534,
   wkplay: playlist535,
   ritmoquente: playlist536,
 };
@@ -84,7 +84,7 @@ const playlistOrder = [
   'wallker',  // Wallker
   'funkbr',  // Funk Brasil
   'velhostempos',  // Velhos Tempos
-  'lights&beats',  // Wallker (REMIX)
+  'lightsbeats',  // Wallker (REMIX)
   'wkplay',  // Coleção Especial
   'ritmoquente',  // Ritmo Quente
 ];
