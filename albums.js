@@ -65,10 +65,10 @@ const charts1 = [
         img: 'https://i.postimg.cc/3rsGQQ0h/Walllker.webp' 
     },
     { 
-        title: 'Remixes', 
+        title: 'Lights & Beats', 
         charts: 'Wallker', 
-        action: () => nlx("wkremix"), 
-        img: 'https://i.postimg.cc/858dJgsW/Wallker.webp' 
+        action: () => nlx("lights&beats"), 
+        img: 'https://i.postimg.cc/x11s6vqY/Lights-Beats.webp' 
     },
     { 
         title: 'Crossover', 
