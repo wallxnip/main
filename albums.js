@@ -19,12 +19,6 @@ const editors1 = [
         action: () => { nlx("flashback"); b(1); },
     },
     { 
-        title: 'Wallker', 
-        action: () => nlx("wkxd"), 
-        subtitle: "Wall-XD", 
-        img: 'https://i.postimg.cc/50DdM1k0/wallxnyp.webp'
-    },
-    { 
         title: 'Rei do Universo', 
         action: () => nlx("jesus"), 
         subtitle: "Jesus", 
@@ -47,7 +41,13 @@ const editors1 = [
         subtitle: 'NEFFEX', 
         action: () => nlx("neffex"), 
         img: 'https://i.postimg.cc/7hdyhNmP/Neffex.webp' 
-    }
+    },
+    { 
+        title: 'New World', 
+        action: () => nlx("wkxd"), 
+        subtitle: "Wallker", 
+        img: 'https://i.postimg.cc/50DdM1k0/wallxnyp.webp'
+    },
     
 ];
 
