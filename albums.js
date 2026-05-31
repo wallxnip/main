@@ -55,7 +55,7 @@ const charts1 = [
   { 
         title: 'Ritmo Quente', 
         charts: 'Wallker', 
-        action: () => nlx("wk+"), 
+        action: () => nlx("ritmoquente"), 
         img: 'https://i.postimg.cc/tC9m8QYH/2000.webp' 
     },
     { 
