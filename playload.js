@@ -86,5 +86,5 @@ const playlistOrder = [
   'velhostempos',  // Velhos Tempos
   'wkremix',  // Wallker (REMIX)
   'wkplay',  // Coleção Especial
-  'wk+',  // Anos 2000
+  'wk+',  // Ritmo Quente
 ];
