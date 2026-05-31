@@ -52,6 +52,12 @@ const editors1 = [
 ];
 
 const charts1 = [
+  { 
+        title: 'Anos 2000', 
+        charts: 'Wallker', 
+        action: () => nlx("wk+"), 
+        img: 'https://i.postimg.cc/L56rMrvD/2000.webp' 
+    },
     { 
         title: 'Coleção Especial', 
         charts: 'Wallker', 
