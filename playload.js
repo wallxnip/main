@@ -42,7 +42,7 @@ const playlists = {
   velhostempos: playlist533,
   wkremix: playlist534,
   wkplay: playlist535,
-  wk+: playlist536,
+  ritmoquente: playlist536,
 };
 
 const playlistOrder = [
@@ -86,5 +86,5 @@ const playlistOrder = [
   'velhostempos',  // Velhos Tempos
   'wkremix',  // Wallker (REMIX)
   'wkplay',  // Coleção Especial
-  'wk+',  // Ritmo Quente
+  'ritmoquente',  // Ritmo Quente
 ];
