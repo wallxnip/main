@@ -67,7 +67,7 @@ const charts1 = [
     { 
         title: 'Lights & Beats', 
         charts: 'Wallker', 
-        action: () => nlx("lights&beats"), 
+        action: () => nlx("lightsbeats"), 
         img: 'https://i.postimg.cc/x11s6vqY/Lights-Beats.webp' 
     },
     { 
