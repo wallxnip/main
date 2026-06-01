@@ -43,6 +43,7 @@ const playlists = {
   lightsbeats: playlist534,
   wkplay: playlist535,
   ritmoquente: playlist536,
+  bluesky: playlist537,
 };
 
 const playlistOrder = [
@@ -87,4 +88,5 @@ const playlistOrder = [
   'lightsbeats',  // Wallker (REMIX)
   'wkplay',  // Coleção Especial
   'ritmoquente',  // Ritmo Quente
+  'bluesky',  // Blue Sky
 ];
