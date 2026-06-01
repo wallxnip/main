@@ -53,6 +53,12 @@ const editors1 = [
 
 const charts1 = [
   { 
+        title: 'Blue Sky', 
+        charts: 'Wallker', 
+        action: () => nlx("bluesky"), 
+        img: 'https://i.postimg.cc/zvKSZJVn/Blue-Sky.webp' 
+  },
+  { 
         title: 'Ritmo Quente', 
         charts: 'Wallker', 
         action: () => nlx("ritmoquente"), 
